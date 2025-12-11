@@ -70,7 +70,7 @@ def embed_query(payload):
 
     url = "https://router.huggingface.co/hf-inference/models/intfloat/multilingual-e5-large/pipeline/feature-extraction"
     API_URL = "https://router.huggingface.co/nebius/v1/embeddings"
-    headers = {"Authorization": f"Bearer {HF_API_KEY}"}
+    headers = {"Authorization": f"Bearer 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"}
     try:
         response = requests.post(url=API_URL, headers=headers, json=payload, timeout=10)
     except Exception as e:
