@@ -3,3 +3,4 @@ faiss-cpu
 uvicorn
 requests
 pydantic
+huggingface_hub
