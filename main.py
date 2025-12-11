@@ -75,7 +75,8 @@ async def chat(req:ChatRequest):
     question = req.question
     
     # Embed question
-    url = f"https://router.huggingface.io/hf-inference/models/{HF_MODEL}"
+    # url = f"https://router.huggingface.io/hf-inference/models/{HF_MODEL}"
+    url = "https://router.huggingface.co/hf-inference/models/intfloat/multilingual-e5-large/pipeline/feature-extraction"
     headers = {"Authorization": f"Bearer {HF_API_KEY}"}
 
     response = requests.post(url, headers=headers, json = {"inputs": question})
