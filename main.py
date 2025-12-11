@@ -2,16 +2,17 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
-from sentence_transformers import SentenceTransformer
+import requests
 import faiss
 import numpy as np
 import json
 import statistics
 import datetime
 import uuid
-from fastapi.staticfiles import StaticFiles
-import uvicorn
 
+
+HF_API_KEY = "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"
+HF_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 app = FastAPI()
 
@@ -26,7 +27,7 @@ app.add_middleware(
 # app.mount("/static",StaticFiles(directory="static"), name ="static")
 
 # Load Embedding model
-model = SentenceTransformer("pritamchoudhury/sentence-transformer-lite")
+# model = SentenceTransformer("pritamchoudhury/sentence-transformer-lite")
 # model = SentenceTransformer("BAAI/bge-large-en-v1.5")
 
 # Load faiss index
@@ -73,9 +74,12 @@ async def chat(req:ChatRequest):
     question = req.question
     
     # Embed question
-    q_vec = model.encode([question])
-    q_vec = np.array(q_vec).astype("float32")
+    url = f"https://api-inference.huggingface.io/pipeline/feature-extraction/{HF_MODEL}"
+    headers = {"Authorization": f"Bearer {HF_API_KEY}"}
 
+    response = requests.post(url, headers=headers, json = {"inputs": question})
+    embeddings = np.array(response.json()[0], dtype="float32")
+    q_vec = embeddings.reshape(1, -1)
     # Search FAISS
     distances, ids = index.search(q_vec, k=3)
 
