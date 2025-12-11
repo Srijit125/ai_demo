@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
@@ -10,9 +10,10 @@ import json
 import statistics
 import datetime
 import uuid
+from huggingface_hub import InferenceClient
 
 
-HF_API_KEY = "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"
+HF_API_KEY = "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"
 HF_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 app = FastAPI()
@@ -61,9 +62,37 @@ def log_interaction(question, answer, ref):
         f.write(json.dumps(entry) + "\n")
 
 # ---------------------------------------------
-# Generate Prompt
+# Generate Embeddings
 # ---------------------------------------------
+def embed_query(payload):
+    if not HF_API_KEY:
+        raise HTTPException(status_code=500, detail="Hugging face API key missing")
 
+    url = "https://router.huggingface.co/hf-inference/models/intfloat/multilingual-e5-large/pipeline/feature-extraction"
+    API_URL = "https://router.huggingface.co/nebius/v1/embeddings"
+    headers = {"Authorization": f"Bearer {HF_API_KEY}"}
+    try:
+        response = requests.post(url=API_URL, headers=headers, json=payload, timeout=10)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"HF request failed : {e}")
+    
+    if response.status_code != 200:
+        raise HTTPException(status_code=500,detail=f"HuggingFace Error: {response.status_code} | {response.text}")
+    
+    try:
+        embedding = np.array(response.json()[0], dtype="float32")
+        return embedding.reshape(1,-1)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail="Failed to parse HF embedding.")
+
+def embed_question(q:str):
+    client = InferenceClient(provider="hf-inference", api_key=HF_API_KEY)
+    result = client.feature_extraction(
+    q,
+    model="BAAI/bge-large-en-v1.5",
+)
+    print(result)
+    return result.reshape(1,-1)
 
 # ---------------------------------------------
 # Chat Conversation (Request a Question)
@@ -75,15 +104,10 @@ async def chat(req:ChatRequest):
     question = req.question
     
     # Embed question
-    # url = f"https://router.huggingface.io/hf-inference/models/{HF_MODEL}"
-    url = "https://router.huggingface.co/hf-inference/models/sentence-transformers/all-MiniLM-L6-v2/pipeline/feature-extraction"
-    headers = {"Authorization": f"Bearer {HF_API_KEY}"}
-
-    response = requests.post(url, headers=headers, json = question)
-    embeddings = np.array(response.json()[0], dtype="float32")
-    q_vec = embeddings.reshape(1, -1)
+    vector = embed_question(question)
+    
     # Search FAISS
-    distances, ids = index.search(q_vec, k=3)
+    distances, ids = index.search(vector, k=3)
 
     # Get reference texts
     

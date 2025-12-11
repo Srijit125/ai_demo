@@ -2,3 +2,4 @@ fastapi
 faiss-cpu
 uvicorn
 requests
+pydantic
