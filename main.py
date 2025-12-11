@@ -12,9 +12,9 @@ import datetime
 import uuid
 from huggingface_hub import InferenceClient
 import os
+from dotenv import load_dotenv
 
-
-
+load_dotenv()
 HF_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 HF_API_KEY= os.getenv("HF_API_KEY")
 app = FastAPI()
@@ -87,8 +87,7 @@ def embed_query(payload):
         raise HTTPException(status_code=500, detail="Failed to parse HF embedding.")
 
 def embed_question(q:str):
-    print(q)
-    client = InferenceClient(provider="hf-inference", api_key="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")
+    client = InferenceClient(provider="hf-inference", api_key=HF_API_KEY)
     result = client.feature_extraction(
     q,
     model="BAAI/bge-large-en-v1.5",

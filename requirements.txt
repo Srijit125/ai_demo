@@ -4,3 +4,4 @@ uvicorn
 requests
 pydantic
 huggingface_hub
+python_dotenv
