@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 import requests
 import faiss
@@ -24,7 +25,7 @@ app.add_middleware(
     allow_headers =["*"]
 )
 
-# app.mount("/static",StaticFiles(directory="static"), name ="static")
+app.mount("/static",StaticFiles(directory="static"), name ="static")
 
 # Load Embedding model
 # model = SentenceTransformer("pritamchoudhury/sentence-transformer-lite")
@@ -74,7 +75,7 @@ async def chat(req:ChatRequest):
     question = req.question
     
     # Embed question
-    url = f"https://api-inference.huggingface.io/pipeline/feature-extraction/{HF_MODEL}"
+    url = f"https://router.huggingface.io/hf-inference/models/{HF_MODEL}"
     headers = {"Authorization": f"Bearer {HF_API_KEY}"}
 
     response = requests.post(url, headers=headers, json = {"inputs": question})
