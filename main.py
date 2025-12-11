@@ -16,7 +16,7 @@ import os
 
 
 HF_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-
+HF_API_KEY= os.getenv("HF_API_KEY")
 app = FastAPI()
 
 app.add_middleware(
@@ -66,14 +66,14 @@ def log_interaction(question, answer, ref):
 # Generate Embeddings
 # ---------------------------------------------
 def embed_query(payload):
-    if not os.getenv("HF_API_KEY"):
+    if not HF_API_KEY:
         raise HTTPException(status_code=500, detail="Hugging face API key missing")
-
+    print(payload)
     url = "https://router.huggingface.co/hf-inference/models/BAAI/bge-large-en-v1.5/pipeline/feature-extraction"
     API_URL = "https://router.huggingface.co/nebius/v1/embeddings"
-    headers = {"Authorization": f"Bearer {os.getenv("HF_API_KEY")}"}
+    headers = {"Authorization": f"Bearer {HF_API_KEY}"}
     try:
-        response = requests.post(url=API_URL, headers=headers, json={"inputs":payload}, timeout=10)
+        response = requests.post(url=url, headers=headers, json={"inputs":payload}, timeout=10)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"HF request failed : {e}")
     
@@ -87,7 +87,8 @@ def embed_query(payload):
         raise HTTPException(status_code=500, detail="Failed to parse HF embedding.")
 
 def embed_question(q:str):
-    client = InferenceClient(provider="hf-inference", api_key=os.getenv("HF_API_KEY"))
+    print(q)
+    client = InferenceClient(provider="hf-inference", api_key="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")
     result = client.feature_extraction(
     q,
     model="BAAI/bge-large-en-v1.5",
