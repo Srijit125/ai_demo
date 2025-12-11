@@ -26,7 +26,7 @@ app.add_middleware(
 # app.mount("/static",StaticFiles(directory="static"), name ="static")
 
 # Load Embedding model
-model = SentenceTransformer("sentence-transformers/paraphrase-MiniLM-L6-v2")
+model = SentenceTransformer("pritamchoudhury/sentence-transformer-lite")
 # model = SentenceTransformer("BAAI/bge-large-en-v1.5")
 
 # Load faiss index
