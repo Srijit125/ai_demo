@@ -76,10 +76,10 @@ async def chat(req:ChatRequest):
     
     # Embed question
     # url = f"https://router.huggingface.io/hf-inference/models/{HF_MODEL}"
-    url = "https://router.huggingface.co/hf-inference/models/intfloat/multilingual-e5-large/pipeline/feature-extraction"
+    url = "https://router.huggingface.co/hf-inference/models/sentence-transformers/all-MiniLM-L6-v2/pipeline/feature-extraction"
     headers = {"Authorization": f"Bearer {HF_API_KEY}"}
 
-    response = requests.post(url, headers=headers, json = {"inputs": question})
+    response = requests.post(url, headers=headers, json = question)
     embeddings = np.array(response.json()[0], dtype="float32")
     q_vec = embeddings.reshape(1, -1)
     # Search FAISS
