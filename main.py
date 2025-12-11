@@ -23,10 +23,10 @@ app.add_middleware(
     allow_headers =["*"]
 )
 
-app.mount("/static",StaticFiles(directory="static"), name ="static")
+# app.mount("/static",StaticFiles(directory="static"), name ="static")
 
 # Load Embedding model
-model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+model = SentenceTransformer("sentence-transformers/paraphrase-MiniLM-L6-v2")
 # model = SentenceTransformer("BAAI/bge-large-en-v1.5")
 
 # Load faiss index
