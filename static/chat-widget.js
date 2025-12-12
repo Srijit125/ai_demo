@@ -90,7 +90,7 @@
         </div>
         <div id="chatbot-messages"></div>
         <div id="chatbot-input-area">
-            <input id="chatbot-input" type="text" placeholder="Type a question ..."/>
+            <input id="chatbot-input" type="text" placeholder="Type a question ...."/>
             <button id="chatbot-send">Send</button>
         </div>
     `;
