@@ -130,7 +130,7 @@ async def chat(req:ChatRequest):
     # Log Q/A
     log_interaction(question, answer, matched_refs)
     
-    if str(answer) != "" and len(answer) <5:
+    if str(answer) == "" or len(answer) <5:
         answer =  "Ask course relevant questions! Try Again!!"
         matched_refs[0]['path'] = ""
     print( {"question": question,
