@@ -115,7 +115,7 @@ async def chat(req:ChatRequest):
     matched_refs = [metadata[i] for i in ids[0]]
 
     # Generate simple answer (could replace with LLM)
-    answer = matched_refs[0]["text"] if len(matched_refs[0]["text"]) > 2  else matched_refs[1]["text"] if len(matched_refs[1]["text"]) > 2 else matched_refs[2]["text"]
+    answer = matched_refs[0]["text"] 
     # results = []
     # for i, score in zip(ids, distances):
     #     entry = metadata[i]
@@ -130,9 +130,9 @@ async def chat(req:ChatRequest):
     # Log Q/A
     log_interaction(question, answer, matched_refs)
     
-    # if str(answer) != "":
-    #     answer =  "Could not understand! Try Again!!"
-    #     matched_refs[0]['path'] = ""
+    if str(answer) != "":
+        answer =  "Ask course relevant questions! Try Again!!"
+        matched_refs[0]['path'] = ""
     print( {"question": question,
         "answer": answer,
         "reference": matched_refs})
@@ -168,7 +168,7 @@ def daily_count():
 
 @app.get("/", response_class=HTMLResponse)
 def validation():
-    url = "http://192.168.5.56:8000/static/dashboard.html"
+    url = "http://https://faiss-chatbox-production.up.railway.app/static/dashboard.html"
     html_for_link = f"""
     <html>
     <head>
@@ -176,7 +176,7 @@ def validation():
     </head>
     <body>
     <div>
-    <button src={url} onclick="window.location.href='http://192.168.5.56:8000/static/dashboard.html'">Dashboard</button>
+    <button onclick=f"window.location.href='http://https://faiss-chatbox-production.up.railway.app/static/dashboard.html'">Dashboard</button>
     </div>
     </body>
     </html>        

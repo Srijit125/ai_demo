@@ -85,7 +85,7 @@
     modal.id = "chatbot-modal";
     modal.innerHTML = `
         <div id="chatbot-header">
-            Ask me anything
+            Ask course related questions
             <span id="chatbot-close">&times;</span>
         </div>
         <div id="chatbot-messages"></div>
