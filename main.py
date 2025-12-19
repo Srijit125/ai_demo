@@ -29,15 +29,11 @@ app.add_middleware(
 
 app.mount("/static",StaticFiles(directory="static"), name ="static")
 
-# Load Embedding model
-# model = SentenceTransformer("pritamchoudhury/sentence-transformer-lite")
-# model = SentenceTransformer("BAAI/bge-large-en-v1.5")
 
 # Load faiss index
 index = faiss.read_index("faiss.index")
 
 # Reference metadata.json contains reference texts/ files
-# references = json.load(open("corpus.json", "r"))
 metadata = json.load(open("metadata.json", "r"))
 # Logger file
 LOG_FILE = "chat_logs.jsonl"
@@ -45,6 +41,80 @@ LOG_FILE = "chat_logs.jsonl"
 # Conversation History
 conversation_history = []
 MAX_HISTORY = 4
+
+
+def detect_intent(question: str):
+    q = question.lower()
+
+    if any(k in q for k in ["advantage", "benefit", "pros"]):
+        return "advantages"
+    if any(k in q for k in ["disadvantage", "limitation", "cons"]):
+        return "disadvantages"
+    if any(k in q for k in ["define", "what is", "meaning"]):
+        return "definition"
+    if any(k in q for k in ["process", "steps", "procedure", "how"]):
+        return "process"
+    if any(k in q for k in ["types", "classification"]):
+        return "types"
+    if any(k in q for k in ["application", "use"]):
+        return "applications"
+    
+    return "general"
+
+def generate_followup_questions(question:str, refs: list):
+    followups = set()
+    intent = detect_intent(question)
+
+    # Extract unique section titles and parents
+    titles = set(r['title'] for r in refs if r.get("title"))
+    parents = set()
+
+    for r in refs:
+        path = r.get("path", "")
+        if ">" in path:
+            parents.add(path.split(">")[-1].strip())
+    
+    # Intent-based questions
+    if intent == "advantages":
+        followups.add("What are the disadvantages?")
+    elif intent == "disadvantages":
+        followups.add("What are the advantages?")
+    elif intent == "definition":
+        followups.add("Explain the process in detail")
+    elif intent == "process":
+        followups.add("What are the advantages?")
+        followups.add("What are the limitations?")
+    elif intent == "types":
+        followups.add("Explain each type in detail")
+    elif intent == "applications":
+        followups.add("What are the advantages and limitations?")
+    
+    # Structural expansion
+    for p in parents:
+        followups.add(f"Explain {p} in detail")
+        followups.add(f"What are the advantages of {p}")
+
+    # Title-based refinement
+    for t in titles:
+        followups.add(f"Explain {t}")
+        followups.add(f"What are the applications of {t}?")
+    
+    # Cleanup
+    return list(dict.fromkeys(followups))[:3]
+
+def build_answer(refs):
+    seen = set()
+    parts = []
+
+    for r in refs:
+        txt = r.get("text","").strip()
+        if txt and txt not in seen:
+            parts.append(txt)
+            seen.add(txt)
+    
+    return " ".join(parts)
+
+
 
 class ChatRequest(BaseModel):
     question: str
@@ -115,17 +185,9 @@ async def chat(req:ChatRequest):
     matched_refs = [metadata[i] for i in ids[0]]
 
     # Generate simple answer (could replace with LLM)
-    answer = matched_refs[0]["text"] 
-    # results = []
-    # for i, score in zip(ids, distances):
-    #     entry = metadata[i]
-    #     results.append({
-    #         "id": entry["id"],
-    #         "title": entry["title"],
-    #         "path": entry["path"],
-    #         "text": entry["text"],
-    #         "full_section": entry["aggregated_content"]
-    #     })
+    # answer = matched_refs[0]["text"] 
+    answer = build_answer(matched_refs)
+    followups = generate_followup_questions(question, matched_refs)
     
     # Log Q/A
     log_interaction(question, answer, matched_refs)
@@ -139,6 +201,7 @@ async def chat(req:ChatRequest):
     return {
         "question": question,
         "answer": answer,
+        "follow_up_questions": followups,
         "reference": matched_refs
     }
 

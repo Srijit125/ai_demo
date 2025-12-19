@@ -71,6 +71,25 @@
             flex: 1;
             padding: 8px;
         }
+        .followup-container:{
+            margin-top: 6px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .followup-btn {
+            background: #ffffff;
+            border: 1px solid #0a8a83;
+            color: #0a8a83;
+            padding: 4px 8px;
+            border-radius: 14px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .followup-btn:hover {
+            background: #0a8a83;
+            color: white;
+        }
     `;
     document.head.appendChild(style);
 
@@ -115,6 +134,28 @@
         messages.scrollTop = messages.scrollHeight;
     } 
 
+    // Add  followup questions
+    function addFollowups(followups) {
+        if (!followups || !followups.length) return;
+
+        const container = document.createElement("div");
+        container.className = "followup-container";
+
+        followups.forEach(q => {
+            const btn = document.createElement("button");
+            btn.className = "followup-btn";
+            btn.innerText = q;
+            btn.onclick = () => {
+                input.value = q;
+                sendChat()
+            };
+            container.appendChild(btn)
+        });
+
+        messages.appendChild(container);
+        messages.scrollTop = messages.scrollHeight;
+    }
+
     async function sendChat() {
         const question = input.value.trim();
         if (!question) return;
@@ -136,6 +177,8 @@
             }</i></small>`,
             "bot-msg"
         );
+
+        addFollowups(data.follow_up_questions);
     }
 
     document.getElementById("chatbot-send").onclick = sendChat;
