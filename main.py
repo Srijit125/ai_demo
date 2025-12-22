@@ -61,7 +61,7 @@ def detect_intent(question: str):
     
     return "general"
 
-def generate_followup_questions(question:str, refs: list):
+def generate_followup_questions(question:str, refs: list, history: list):
     followups = set()
     intent = detect_intent(question)
 
@@ -74,6 +74,10 @@ def generate_followup_questions(question:str, refs: list):
         if ">" in path:
             parents.add(path.split(">")[-1].strip())
     
+    # History based followup
+    if history:
+        followups.add(f"Continue with {history[-1]}")
+
     # Intent-based questions
     if intent == "advantages":
         followups.add("What are the disadvantages?")
@@ -114,10 +118,26 @@ def build_answer(refs):
     
     return " ".join(parts)
 
+def resolve_context(question:str, history: list[str]):
+    q = question.lower().strip()
+
+    if not history:
+        return question
+    
+    # If question is vague, attach to last topic
+    vague_starters = ("what about", "and", "explain", "tell me more", "continue", "that")
+
+    if q.startswith(vague_starters) or len(q.split()) <= 3:
+        last = history[-1]
+        return f"{question} about {last}"
+
+    return question
+
 
 
 class ChatRequest(BaseModel):
     question: str
+    history: list[str] = []
 
 def log_interaction(question, answer, ref):
     entry = {
@@ -173,9 +193,13 @@ async def chat(req:ChatRequest):
     global conversation_history
 
     question = req.question
-    
+    history = req.history or []
+
+    resolved_question = resolve_context(question, history)
+
+
     # Embed question
-    vector = embed_question(question)
+    vector = embed_question(resolved_question)
     
     # Search FAISS
     distances, ids = index.search(vector, k=3)
@@ -187,7 +211,7 @@ async def chat(req:ChatRequest):
     # Generate simple answer (could replace with LLM)
     # answer = matched_refs[0]["text"] 
     answer = build_answer(matched_refs)
-    followups = generate_followup_questions(question, matched_refs)
+    followups = generate_followup_questions(question, matched_refs, history)
     
     # Log Q/A
     log_interaction(question, answer, matched_refs)

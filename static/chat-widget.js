@@ -93,6 +93,10 @@
     `;
     document.head.appendChild(style);
 
+    // Conversation History
+    const conversationHistory = [];
+    const MAX_HISTORY = 3;
+
     // --- Bubble ---
     const bubble = document.createElement("div");
     bubble.id = "chatbot-bubble";
@@ -163,10 +167,15 @@
         addMessage(question, "user-msg");
         input.value = "";
 
+        conversationHistory.push(question);
+        if (conversationHistory.length> MAX_HISTORY) {
+            conversationHistory.shift();
+        }
+
         const res = await fetch("https://faiss-chatbox-production.up.railway.app/api/chat", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ question }),
+            body: JSON.stringify({ question, history: conversationHistory }),
         });
 
         const data = await res.json();

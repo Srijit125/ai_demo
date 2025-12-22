@@ -1,135 +1,149 @@
 [
   {
-    "title": "Principle of Oxy-acetylene welding",
-    "path": " Principle of Oxy-acetylene welding",
+    "title": "THEORY:",
+    "path": " THEORY:",
     "subtopic": "context",
-    "text": "Oxy-acetylene welding (also called gas welding or OAW) is a fusion welding process that uses a flame from burning acetylene (C\u2082H\u2082) with oxygen (O\u2082) to melt base metal edges. The torch mixes the gases and the flame temperature (neutral flame) reaches 3200\u20133300 \u00b0C, high enough to melt mild steel locally.",
+    "text": "",
     "id": "C_00001"
   },
   {
-    "title": "Equipment & consumables",
-    "path": " Equipment & consumables",
+    "title": "Manufacturing of bricks",
+    "path": " THEORY: >  Manufacturing of bricks",
     "subtopic": "context",
-    "text": "",
+    "text": "The bricks are manufactured by the following process: Preparation of clay Moulding Drying Burning",
     "id": "C_00002"
   },
   {
-    "title": "Cylinders",
-    "path": " Equipment & consumables >  Cylinders",
+    "title": "Pug mill",
+    "path": " THEORY: >  Pug mill",
     "subtopic": "context",
-    "text": "Oxygen (high pressure steel cylinder), Acetylene (dissolved in acetone inside cylinder). Store upright, chained, valve covers on when not in use.",
+    "text": "A pug mill consists of a iron cylinder in the form of bucket with top and bottom diameters 120 cm and 75 cm respectively and height about 180 cm. It has centrally placed long vertical iron shaft which is provided with number of  horizontal arms furnished with knives for breaking clay lumps. A long horizontal arm is fitted at the top of vertical shaft which is driven round by a  pair of bullocks or sometimes by electric power. Clay and water in the required ratio (generally 1:1/4) are charged in the cylinder  from the top and the tempered clay leaves the pug mill through of mentioned size  can knead nearly 30 m3 of earth per day.",
     "id": "C_00003"
   },
   {
-    "title": "Regulators",
-    "path": " Equipment & consumables >  Regulators",
+    "title": "Moulding of bricks",
+    "path": " THEORY: >  Moulding of bricks",
     "subtopic": "context",
-    "text": "Two pressure regulators (one per cylinder) with gauges: cylinder pressure & working (delivery) pressure.",
+    "text": "After the earth or clay is prepared the moulding of the bricks is carried out either by hand or by machine.",
     "id": "C_00004"
   },
   {
-    "title": "Hoses",
-    "path": " Equipment & consumables >  Hoses",
+    "title": "Drying of bricks",
+    "path": " THEORY: >  Drying of bricks",
     "subtopic": "context",
-    "text": "Oxygen = green (or black/green), Acetylene = red. Use flashback arrestors and check valves.",
+    "text": "After the bricks are moulded, they are dried by the following two methods: Natural drying Artificial drying",
     "id": "C_00005"
   },
   {
-    "title": "Torch (handle & mixing tip)",
-    "path": " Equipment & consumables >  Torch (handle & mixing tip)",
+    "title": "Burning of bricks",
+    "path": " THEORY: >  Burning of bricks",
     "subtopic": "context",
-    "text": "Handles with valves for oxygen/acetylene; detachable tips/nozzles sized by material thickness.",
+    "text": "Bricks after being moulded and dried are burnt in the kiln. The purpose of burning are To impart hardness and strength to the bricks. To increase the density of the bricks so that they will absorb less quantity of water.",
     "id": "C_00006"
   },
   {
-    "title": "Tips/nozzles",
-    "path": " Equipment & consumables >  Tips/nozzles",
+    "title": "Kiln burning",
+    "path": " THEORY: >  Kiln burning",
     "subtopic": "context",
-    "text": "Tip numbers/sizes chosen by plate thickness and welding current (heat input). Smaller tips for thin metals, larger for thicker.",
+    "text": "Kiln is a large oven used for the burning of bricks. Generally coal and other locally  available materials like wood, cow dung etc., can be used as fuel. They are of two types: Intermittent kilns Continuous kilns.",
     "id": "C_00007"
   },
   {
-    "title": "Accessories",
-    "path": " Equipment & consumables >  Accessories",
+    "title": "Bull's trench kiln",
+    "path": " THEORY: >  Bull's trench kiln",
     "subtopic": "context",
-    "text": "Spark lighter, wire brush, chipping hammer, clamps, backing bars, fireproof blankets.",
+    "text": "This type of kiln is usually oval is plan and is made in a trench excavated below  ground surface, the depth of trench being about 2 metres.",
     "id": "C_00008"
   },
   {
-    "title": "Make Mould Pattern",
-    "path": " Make Mould Pattern",
+    "title": "Hoffman's kiln",
+    "path": " THEORY: >  Hoffman's kiln",
     "subtopic": "context",
-    "text": "",
+    "text": "This kiln is built above the ground and is circular in plan.",
     "id": "C_00009"
   },
   {
-    "title": "Pattern",
-    "path": " Make Mould Pattern >  Pattern",
+    "title": "THEORY:",
+    "path": " THEORY:",
     "subtopic": "context",
-    "text": "A pattern is a replica or model of the object to be cast. It is slightly larger than the final component due to allowances. The pattern is used to create a cavity in the mould.",
+    "text": "",
     "id": "C_00010"
   },
   {
-    "title": "Classifications of Patterns",
-    "path": " Make Mould Pattern >  Classifications of Patterns",
+    "title": "Setting out of a building",
+    "path": " THEORY: >  Setting out of a building",
     "subtopic": "context",
-    "text": "Classified based on their construction, use, and application in moulding. Single Piece Pattern (Solid Pattern) Split Pattern (Two-Piece Pattern) Match Plate Pattern Loose Piece Pattern Sweep Pattern Skeleton Pattern Gated Pattern Segmental Pattern",
+    "text": "The process of laying out engineering projects by placing pegs or marks at the site  of work is known as setting out works. Setting out work, the data are transferred from plan to the ground. Setting out of a building is made by, Circumscribing rectangle Central line of rectangle Fig 1: Plan of residential building",
     "id": "C_00011"
   },
   {
-    "title": "Mould",
-    "path": " Mould",
+    "title": "Circumscribing rectangle",
+    "path": " THEORY: >  Circumscribing rectangle",
     "subtopic": "context",
-    "text": "A mould is a cavity formed by packing moulding sand around the pattern. After removing the pattern, the cavity is filled with molten metal to produce the casting.",
+    "text": "In this method a reference rectangle is set outside the limits of excavation at a  distance 2 to 5 m is known as circumscribing rectangle. Fig 2: Setting out by circumscribing rectangle Let us consider reference pegs A, B, C and D fixed at the corners of the rectangle. ABCD is a circumscribing rectangle. The field procedure is that the two stakes A and B accurately driven at the required  distance apart. The centers of the stakes are marked by driving wire nails. A cord is stretched between A and B. At A a perpendicular AD to AB is set out with a tape by 3,4,5, triangle method. A stake at D is driven measuring AD equal to the desired distance. Check the diagonal DB. Similarly, at B a perpendicular BC to AB is set out with a tape by 3,4,5 triangle  method. The stake C is also set by similar procedure. Check the distance CD which should be  equal to AB. The corners of the foundation plan are fixed by measuring the respected calculated  coordinates from the sides of the reference rectangle. The locations of the corner points are marked by driving pegs. A cord is passed round the periphery of the rectangles (1,2,3,4), (5,6,7,8),  (9,10,11,12) and (13,14,15,16) and the outline of the foundation is marked by  spreading lime along these lines.",
     "id": "C_00012"
   },
   {
-    "title": "Sand moulding making procedure",
-    "path": " Mould >  Sand moulding making procedure",
+    "title": "Centre line method",
+    "path": " THEORY: >  Centre line method",
     "subtopic": "context",
-    "text": "The drag half of the pattern is placed on the mould board. A parting material (lycopodium talc) is dusted over the pattern and the moulding board\nto the removal of the pattern from the mould. The drag is filled with moulding sand and its is packed and rammed around the pattern. After the ramming, the excess sand is scrapped off with a straight bar called a\n\u201cStrike Rod\u201d. Vent holes are pierced in the sand with \"Vent Wires\" for the gases to escape through. The drag box mould is turned over 180\u00b0. The cope half of the pattern is properly positioned over the drag half of the pattern with the help of dowel pins and dowel holes. The cope flask is mounted onto the drag flask and the two halves are properly aligned\nwith the help of alignment pins. The sprue pin and riser pin are placed in the position. The operation of filling, ramming and venting of the cope proceed in the same manner\nas in the drag. A pouring basin is cut adjacent to the sprue and then the sprue and riser pins are withdrawn. The cope is carefully lifted off the temporarily separated from the drag and placed on one side. Split pattern from the drag and cope is lifted out. The gate and runner are cut in the drag  and cope, connecting the mould cavity and the\nsprue opening. The mould is now assembled, the cope being carefully placed over the drag so that\nthe locating pins fit into the holes. The mould is now ready for pouring.",
+    "text": "For setting out the foundations of small buildings, the centre line of the longest  outer wall of the building is first marked on the ground by stretching a string  between wooden or mild steel pegs driven at the ends. This line serves as reference line. For accurate work, nails can be fixed at the  centre of the pegs. Two pegs, one on either side of the central peg, are driven at each end of the line.  Each peg is equidistant from the central peg, and the distance between the outer  pegs corresponds to the width of foundation trench to be excavated. Each peg may project about 25 to 50 mm above ground level and may be driven  at a distance of about 2 m from the edge of excavation so that they are not  disturbed. When string is stretched joining the corresponding pegs (say 2-2) at the two  extremities of the line, the boundary of the trench to be excavated can be marked  on the ground with dry lime powder. The centre lines of other walls, which are perpendicular to the long wall, are then  marked by setting out right angles. A right angle can be set out by forming a triangle with 3, 4 and 5 units long. These dimensions should be measured with the help of a steel tape.  Alternatively, a theodolite or prismatic compass may be used for setting out right  angles. Similarly, outer lines of the foundation trench of each cross-wall can be set out,  as shown in figure below. Fig 3: Setting out of foundation trench For a big project, reference pillars of masonry may be constructed. These pillars  may be about 20 cm thick, and about 15 cm wider than the width of the  foundation trench. The top of the pillars is plastered, and is set at the same level, preferably at the  plinth level. Pegs are embedded in these pillars and nails are then driven in the pegs to  represent the centre line and the outer lines of the trench. Sometimes, additional walls are provided to represent plinth lines. The following  figure shows the setting out using masonry pillars. Fig 4: Setting out using masonry pillars",
     "id": "C_00013"
   },
   {
-    "title": "Advantages of Moulding",
-    "path": " Mould >  Advantages of Moulding",
+    "title": "THEORY:",
+    "path": " THEORY:",
     "subtopic": "context",
-    "text": "Sand moulding can produce complex shapes that machining cannot achieve. It is suitable for casting very small to very large components. Sand is cheap, easily available, and reusable, making the process economical. Both ferrous and non-ferrous metals can be cast. Design changes are easy by modifying the pattern or mould. Patterns and moulding boxes are cheaper compared to permanent mould dies.",
+    "text": "",
     "id": "C_00014"
   },
   {
-    "title": "Disadvantages of Moulding (Shortened)",
-    "path": " Mould >  Disadvantages of Moulding (Shortened)",
+    "title": "Measurement of workability",
+    "path": " THEORY: >  Measurement of workability",
     "subtopic": "context",
-    "text": "Sand moulds give rough surfaces, so machining is often needed. Shrinkage and mould deformation can cause errors in size. The process is slow due to mould preparation, pouring, cooling, and shakeout. Skilled workers are needed for pattern making, moulding, and finishing. Thin parts may not fill properly as the metal solidifies too quickly. Extra work is needed to remove sand, runners, risers, and finish the casting.",
+    "text": "The following tests are commonly employed to measure workability. Slump test Compacting factor test Flow test Kelly bell test Vee bee consistometer test",
     "id": "C_00015"
   },
   {
-    "title": "Working Principle",
-    "path": " Working Principle",
+    "title": "Slump test",
+    "path": " THEORY: >  Slump test",
     "subtopic": "context",
-    "text": "Milling machine is a machine tool that form a work piece as it is fed against a rotating multi point cutting tool called milling cutter. The cutter rotates at a high speed and as it is provided with many cutting edges, it removes the metal at a very fast rate. The milling machine can also hold one or more number of cutters at a time.",
+    "text": "Slump test is the most commonly used method of measuring consistency of concrete which can be employed either in laboratory or at site of work. Fig 1: Apparatus",
     "id": "C_00016"
   },
   {
-    "title": "Step milling using side and face cutter",
-    "path": " Step milling using side and face cutter",
+    "title": "K slump tester",
+    "path": " THEORY: >  K slump tester",
     "subtopic": "context",
-    "text": "Step milling is a machining operation in which one or more steps (vertical drops in surface height) are produced on a workpiece. A Side and Face Cutter is commonly used for this operation because it can cut both on its periphery and its side, allowing accurate machining of vertical and horizontal surfaces in one pass.",
+    "text": "K slump tester can be used to measure the slump directly in one minute after the  tester is inserted in the fresh concrete to the level of the floater disc. This tester can also be used to measure the relative workability. Fig 2: K slump tester",
     "id": "C_00017"
   },
   {
-    "title": "Making \u2018V\u2019 Block",
-    "path": " Making \u2018V\u2019 Block",
+    "title": "Compaction factor test",
+    "path": " THEORY: >  Compaction factor test",
     "subtopic": "context",
-    "text": "A V-block is a precision holding device used to support cylindrical workpieces during marking, inspection, drilling, or machining. It has a 90\u00b0 V-groove accurately machined on the top to hold round components firmly.",
+    "text": "The compaction factor test has been developed at the road research laboratory U.K, and it is claimed that it is one of the most efficient tests for measuring the workability of concrete. The test works in the principle of determining the degree of compaction achieved by a standard amount of work done by allowing the concrete to fall through a standard height. The degree of compaction called the compaction factor is measured by the density ratio i.e., the ratio of the density actually achieved in the test to density of same concrete fully compacted. Fig 3: Compaction factor test",
     "id": "C_00018"
   },
   {
-    "title": "Straddle milling",
-    "path": " Straddle milling",
+    "title": "Flow test",
+    "path": " THEORY: >  Flow test",
     "subtopic": "context",
-    "text": "Straddle milling is an operation in which a pair of side milling cutters are used for machining two parallel vertical surfaces of a workpiece simultaneously. The distance between the cutter is adjusted by the spacers. This process is used to mill square and hexagonal surfaces.",
+    "text": "This is a laboratory test which gives an indication of the quality of concrete with respect to consistency, cohesiveness and the proneness to segregation. The spread or the flow of the concrete is measured and this flow is related to workability. Fig 4: Flow test table",
     "id": "C_00019"
+  },
+  {
+    "title": "Kelly ball test",
+    "path": " THEORY: >  Kelly ball test",
+    "subtopic": "context",
+    "text": "This is a simple field test consisting of the measurement of the indentation made by 15 cm diameter metal hemisphere weighing 13.6 kg, when freely placed on fresh concrete. The test has been devised by Kelly and hence known as Kelly ball test. Fig 5: Kelly ball test",
+    "id": "C_00020"
+  },
+  {
+    "title": "Vee bee consistometer test",
+    "path": " THEORY: >  Vee bee consistometer test",
+    "subtopic": "context",
+    "text": "This test used for measuring indirectly the workability of concrete. Fig 6: Vee bee consistometer test",
+    "id": "C_00021"
   }
 ]
