@@ -172,7 +172,7 @@
             conversationHistory.shift();
         }
 
-        const res = await fetch("https://faiss-chatbox-production.up.railway.app/api/chat", {
+        const res = await fetch("https://aidemo-production-3576.up.railway.app/api/chat", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ question, history: conversationHistory }),

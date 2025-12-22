@@ -4,10 +4,10 @@ async function fetchJSON(url) {
 }
 
 async function loadDashboard() {
-    const dailyCount = await fetchJSON("https://faiss-chatbox-production.up.railway.app/api/analytics/daily_count");
-    const topChunks = await fetchJSON("https://faiss-chatbox-production.up.railway.app/api/analytics/top_chunks");
-    const topQuestions = await fetchJSON("https://faiss-chatbox-production.up.railway.app/api/analytics/top_questions")
-    const answerLength = await fetchJSON("https://faiss-chatbox-production.up.railway.app/api/analytics/answer_length");
+    const dailyCount = await fetchJSON("https://aidemo-production-3576.up.railway.app/api/analytics/daily_count");
+    const topChunks = await fetchJSON("https://aidemo-production-3576.up.railway.app/api/analytics/top_chunks");
+    const topQuestions = await fetchJSON("https://aidemo-production-3576.up.railway.app/api/analytics/top_questions")
+    const answerLength = await fetchJSON("https://aidemo-production-3576.up.railway.app/api/analytics/answer_length");
 
     // Cards ----------------------------------------------
     document.getElementById("totalQuestions").innerText = Object.values(dailyCount).reduce((a,b) => a + b, 0);
