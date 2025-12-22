@@ -1,149 +1,93 @@
 [
   {
-    "title": "THEORY:",
-    "path": " THEORY:",
+    "title": "Perform Minor surgery",
+    "path": " Perform Minor surgery",
     "subtopic": "context",
     "text": "",
     "id": "C_00001"
   },
   {
-    "title": "Manufacturing of bricks",
-    "path": " THEORY: >  Manufacturing of bricks",
+    "title": "Performing preoperative preparations",
+    "path": " Perform Minor surgery >  Performing preoperative preparations",
     "subtopic": "context",
-    "text": "The bricks are manufactured by the following process: Preparation of clay Moulding Drying Burning",
+    "text": "Performing preoperative preparations is an important part of ensuring a successful surgical procedure. Here are the general steps involved in preoperative preparations.",
     "id": "C_00002"
   },
   {
-    "title": "Pug mill",
-    "path": " THEORY: >  Pug mill",
+    "title": "Review the surgical plan:",
+    "path": " Perform Minor surgery >  Review the surgical plan:",
     "subtopic": "context",
-    "text": "A pug mill consists of a iron cylinder in the form of bucket with top and bottom diameters 120 cm and 75 cm respectively and height about 180 cm. It has centrally placed long vertical iron shaft which is provided with number of  horizontal arms furnished with knives for breaking clay lumps. A long horizontal arm is fitted at the top of vertical shaft which is driven round by a  pair of bullocks or sometimes by electric power. Clay and water in the required ratio (generally 1:1/4) are charged in the cylinder  from the top and the tempered clay leaves the pug mill through of mentioned size  can knead nearly 30 m3 of earth per day.",
+    "text": "Familiarize yourself with the surgical plan, including the specific procedure to be performed, any special considerations or requirements, and the expected outcome.",
     "id": "C_00003"
   },
   {
-    "title": "Moulding of bricks",
-    "path": " THEORY: >  Moulding of bricks",
+    "title": "Gather surgical materials and supplies:",
+    "path": " Perform Minor surgery >  Gather surgical materials and supplies:",
     "subtopic": "context",
-    "text": "After the earth or clay is prepared the moulding of the bricks is carried out either by hand or by machine.",
+    "text": "Ensure that all the necessary surgical instruments, supplies, and equipment are available and in good working condition. Check the expiration dates of sterile items and ensure they are within their validity period. Verify that you have the appropriate suture materials, surgical drapes, gauze, syringes, and any other specific supplies needed for the procedure.",
     "id": "C_00004"
   },
   {
-    "title": "Drying of bricks",
-    "path": " THEORY: >  Drying of bricks",
+    "title": "Prepare the work area:",
+    "path": " Perform Minor surgery >  Prepare the work area:",
     "subtopic": "context",
-    "text": "After the bricks are moulded, they are dried by the following two methods: Natural drying Artificial drying",
+    "text": "Select an appropriate location for the surgery, such as a clean and well-lit operating room or a designated area with minimal distractions. Clean and disinfect the work area, including the operating table, surgical lights, and any surfaces or equipment that will come into contact with the surgical field. Set up a sterile field by covering the operating table with sterile drapes and arranging the necessary instruments and supplies in an organized manner.",
     "id": "C_00005"
   },
   {
-    "title": "Burning of bricks",
-    "path": " THEORY: >  Burning of bricks",
+    "title": "Sterilize surgical instruments:",
+    "path": " Perform Minor surgery >  Sterilize surgical instruments:",
     "subtopic": "context",
-    "text": "Bricks after being moulded and dried are burnt in the kiln. The purpose of burning are To impart hardness and strength to the bricks. To increase the density of the bricks so that they will absorb less quantity of water.",
+    "text": "Ensure that all reusable surgical instruments have been properly sterilized. Follow the recommended sterilization methods, such as autoclaving or chemical sterilization, and adhere to the appropriate sterilization cycles and protocols. Store the sterilized instruments in a clean and dry area or within a sterilization pouch until they are needed for the surgery.",
     "id": "C_00006"
   },
   {
-    "title": "Kiln burning",
-    "path": " THEORY: >  Kiln burning",
+    "title": "Prepare the animal",
+    "path": " Perform Minor surgery >  Prepare the animal",
     "subtopic": "context",
-    "text": "Kiln is a large oven used for the burning of bricks. Generally coal and other locally  available materials like wood, cow dung etc., can be used as fuel. They are of two types: Intermittent kilns Continuous kilns.",
+    "text": "Perform a preoperative assessment of the animal, including a thorough physical examination and any necessary diagnostic tests or imaging. Ensure that the animal has been appropriately fasted, if required, to minimize the risk of regurgitation or aspiration during anesthesia. Administer any pre-anesthetic medications as directed by the veterinarian to prepare the animal for anesthesia and surgery.",
     "id": "C_00007"
   },
   {
-    "title": "Bull's trench kiln",
-    "path": " THEORY: >  Bull's trench kiln",
+    "title": "Prepare the site of surgical correction",
+    "path": " Perform Minor surgery >  Prepare the site of surgical correction",
     "subtopic": "context",
-    "text": "This type of kiln is usually oval is plan and is made in a trench excavated below  ground surface, the depth of trench being about 2 metres.",
+    "text": "Shave and clean the surgical site to remove hair and debris that could introduce contaminants into the surgical field. Use an appropriate antiseptic solution to disinfect the area surrounding the surgical site, following recommended protocols and ensuring adequate contact time. Place sterile drapes over the animal, covering the surgical site and creating a sterile field.",
     "id": "C_00008"
   },
   {
-    "title": "Hoffman's kiln",
-    "path": " THEORY: >  Hoffman's kiln",
+    "title": "Theory",
+    "path": " Theory",
     "subtopic": "context",
-    "text": "This kiln is built above the ground and is circular in plan.",
+    "text": "Minor surgery involves simple surgical procedures performed on animals under local anesthesia. These procedures cause minimal tissue damage and are commonly carried out to treat wounds, abscesses, or superficial injuries. The success of minor surgery depends on: Proper animal examination Maintenance of asepsis Correct use of surgical instruments Effective anesthesia Adequate post-operative care Aseptic technique is essential to prevent infection and promote quick healing. The image provides a summary of\u00a0Pain Management and Postoperative Care\u00a0for animals undergoing a tail amputation procedure.",
     "id": "C_00009"
   },
   {
-    "title": "THEORY:",
-    "path": " THEORY:",
+    "title": "Pain Management and Postoperative Care:",
+    "path": " Theory >  Pain Management and Postoperative Care:",
     "subtopic": "context",
-    "text": "",
+    "text": "Pain Management:\u00a0Appropriate pain management should be provided\u00a0before, during, and after\u00a0the tail amputation procedure to minimize discomfort and promote a smooth recovery. This may include: Local anesthesia Analgesics Other pain relief measures prescribed by a veterinarian. Postoperative Care:\u00a0Care typically involves: Wound monitoring\u00a0to ensure proper healing. Keeping the surgical site\u00a0clean and dry. Administering\u00a0prescribed medications\u00a0(e.g., antibiotics, analgesics) exactly as directed. Healing Process:\u00a0Depending on the species and the individual animal, healing can take\u00a0several weeks. It is crucial to follow the veterinarian\u2019s instructions regarding: Wound care Activity restrictions Follow-up appointments L5 \u2013 Operate farm machinery",
     "id": "C_00010"
   },
   {
-    "title": "Setting out of a building",
-    "path": " THEORY: >  Setting out of a building",
+    "title": "Operate farm machinery",
+    "path": " Operate farm machinery",
     "subtopic": "context",
-    "text": "The process of laying out engineering projects by placing pegs or marks at the site  of work is known as setting out works. Setting out work, the data are transferred from plan to the ground. Setting out of a building is made by, Circumscribing rectangle Central line of rectangle Fig 1: Plan of residential building",
+    "text": "",
     "id": "C_00011"
   },
   {
-    "title": "Circumscribing rectangle",
-    "path": " THEORY: >  Circumscribing rectangle",
+    "title": "Theory",
+    "path": " Operate farm machinery >  Theory",
     "subtopic": "context",
-    "text": "In this method a reference rectangle is set outside the limits of excavation at a  distance 2 to 5 m is known as circumscribing rectangle. Fig 2: Setting out by circumscribing rectangle Let us consider reference pegs A, B, C and D fixed at the corners of the rectangle. ABCD is a circumscribing rectangle. The field procedure is that the two stakes A and B accurately driven at the required  distance apart. The centers of the stakes are marked by driving wire nails. A cord is stretched between A and B. At A a perpendicular AD to AB is set out with a tape by 3,4,5, triangle method. A stake at D is driven measuring AD equal to the desired distance. Check the diagonal DB. Similarly, at B a perpendicular BC to AB is set out with a tape by 3,4,5 triangle  method. The stake C is also set by similar procedure. Check the distance CD which should be  equal to AB. The corners of the foundation plan are fixed by measuring the respected calculated  coordinates from the sides of the reference rectangle. The locations of the corner points are marked by driving pegs. A cord is passed round the periphery of the rectangles (1,2,3,4), (5,6,7,8),  (9,10,11,12) and (13,14,15,16) and the outline of the foundation is marked by  spreading lime along these lines.",
+    "text": "To Identify and study major systems of a tractor and to learn general guidelines on preliminary check measures before starting a tractor - procedure for starting, running and stopping the tractor. Engine - Engine converts heat energy obtained during burning of fuel into mechanical energy. The energy obtained from engine is used to i) move the tractor ii) to pull the implements and trailer iii) to operate rotary machines like rotary tiller, pumping devices etc. Clutch - It is used to connect or disconnect engine power to the gear box of the tractor. Gear box - Gear box contains many pairs of gears to provide different speeds to the rear wheels. This system consists of components that are used to transmit the torque developed by the prime-mover or the engine to the driving wheels and to vary the torque and direction of rotation of the ground wheels. The greatest difference between transmission for farm tractors and those for highway vehicles is that in the tractor most of the gears may be used continuously under full load. Automobile transmissions would fail if they were run in low gear at full power for any length of time. All transmissions convert the engine torque and speed into a more useful combination of torque and speed at the drive wheels. Differential unit - This is also an assembly of gears in a special way. It provides differential speeds to rear wheels during turning of the tractor Final drive - This constitutes a pair of gears connecting the half shaft and the rear wheel axle so that the speed of the half shaft is very much reduced at the rear wheels and by this way the torque axle is increased. PTO shaft - Its full name is power take of shaft. It gets it drive from the gear box of the tractor. Rotating type of implements such as rotary tiller, water pumps, chaff cutter etc., can be operated using the PTO shaft drive. It is available at the rear /side of the tractor. The power available at the PTO shaft is about 87 % of engine power. Draw bar - It is a bracket located to the rear of the tractor to which trailed implements and trailers can be connected and worked. The power available at the draw bar is about 50-60 % of engine power. Because the maximum speed of a tractor is regulated by a governor, the potential maximum drawbar power of the tractor is nearly constant regardless of the forward speed, except for the lowest speeds when the maximum power is limited by traction. Hydraulic system - Hydraulic system operates the hydraulic cylinders which in turn actuate the lower links of the tractor so that the implements hitched to the lower links are lifted or lowered Three-point hitch system - The three links- one upper link and two lower links- available at the rear of the tractor constitute the three-point hitch system for the tractor. The lower links are actuated by the hydraulic system. An implement connected to the three links is called a mounted implement and an implement connected to the two lower links is called semi mounted implement. Steering system - It is useful to turn the front wheels either right side or left side so that tractor turns right or left. Brakes - when brakes are applied, brake drums located in the rear wheel drums stops the rotating wheels and the tractor stops. Cooling system - It cools the engine by removing heat with the help of water. It contains radiator, water pump, thermostat. Cool water is pumped into the water jackets of the engine, heat from engine body is transferred to water by conduction and the hot water is cooled in the radiator. Lubricating system - All the moving parts in the engine are lubricated by lubricating oil. Lubrication is necessary to reduce wear and tear of the moving parts of the engine. This system consists of oil sump, lubricating oil, and pipe lines.",
     "id": "C_00012"
   },
   {
-    "title": "Centre line method",
-    "path": " THEORY: >  Centre line method",
+    "title": "Control Meters / Panel",
+    "path": " Operate farm machinery >  Control Meters / Panel",
     "subtopic": "context",
-    "text": "For setting out the foundations of small buildings, the centre line of the longest  outer wall of the building is first marked on the ground by stretching a string  between wooden or mild steel pegs driven at the ends. This line serves as reference line. For accurate work, nails can be fixed at the  centre of the pegs. Two pegs, one on either side of the central peg, are driven at each end of the line.  Each peg is equidistant from the central peg, and the distance between the outer  pegs corresponds to the width of foundation trench to be excavated. Each peg may project about 25 to 50 mm above ground level and may be driven  at a distance of about 2 m from the edge of excavation so that they are not  disturbed. When string is stretched joining the corresponding pegs (say 2-2) at the two  extremities of the line, the boundary of the trench to be excavated can be marked  on the ground with dry lime powder. The centre lines of other walls, which are perpendicular to the long wall, are then  marked by setting out right angles. A right angle can be set out by forming a triangle with 3, 4 and 5 units long. These dimensions should be measured with the help of a steel tape.  Alternatively, a theodolite or prismatic compass may be used for setting out right  angles. Similarly, outer lines of the foundation trench of each cross-wall can be set out,  as shown in figure below. Fig 3: Setting out of foundation trench For a big project, reference pillars of masonry may be constructed. These pillars  may be about 20 cm thick, and about 15 cm wider than the width of the  foundation trench. The top of the pillars is plastered, and is set at the same level, preferably at the  plinth level. Pegs are embedded in these pillars and nails are then driven in the pegs to  represent the centre line and the outer lines of the trench. Sometimes, additional walls are provided to represent plinth lines. The following  figure shows the setting out using masonry pillars. Fig 4: Setting out using masonry pillars",
+    "text": "Temperature gauge - It indicates the temperature of water in the radiator. When it reads with in green band, the engine is cooled properly. When it reads in the red band it means engine cooling in insufficient, may be due to defects in the cooling system components. This should be corrected. Oil gauge - It indicates the pressure with which oil is circulated in the engine parts. High pressure indicates blockage in the oil line and to be checked for correctness. Hour meter - It indicates the running hours of the engine Speedometer - It indicates the vehicle speed in km/h Ampere meter- It indicates the condition of the battery as well as charging of the battery by dynamo. All the above meters are placed in the panel board located in front of the driver.",
     "id": "C_00013"
-  },
-  {
-    "title": "THEORY:",
-    "path": " THEORY:",
-    "subtopic": "context",
-    "text": "",
-    "id": "C_00014"
-  },
-  {
-    "title": "Measurement of workability",
-    "path": " THEORY: >  Measurement of workability",
-    "subtopic": "context",
-    "text": "The following tests are commonly employed to measure workability. Slump test Compacting factor test Flow test Kelly bell test Vee bee consistometer test",
-    "id": "C_00015"
-  },
-  {
-    "title": "Slump test",
-    "path": " THEORY: >  Slump test",
-    "subtopic": "context",
-    "text": "Slump test is the most commonly used method of measuring consistency of concrete which can be employed either in laboratory or at site of work. Fig 1: Apparatus",
-    "id": "C_00016"
-  },
-  {
-    "title": "K slump tester",
-    "path": " THEORY: >  K slump tester",
-    "subtopic": "context",
-    "text": "K slump tester can be used to measure the slump directly in one minute after the  tester is inserted in the fresh concrete to the level of the floater disc. This tester can also be used to measure the relative workability. Fig 2: K slump tester",
-    "id": "C_00017"
-  },
-  {
-    "title": "Compaction factor test",
-    "path": " THEORY: >  Compaction factor test",
-    "subtopic": "context",
-    "text": "The compaction factor test has been developed at the road research laboratory U.K, and it is claimed that it is one of the most efficient tests for measuring the workability of concrete. The test works in the principle of determining the degree of compaction achieved by a standard amount of work done by allowing the concrete to fall through a standard height. The degree of compaction called the compaction factor is measured by the density ratio i.e., the ratio of the density actually achieved in the test to density of same concrete fully compacted. Fig 3: Compaction factor test",
-    "id": "C_00018"
-  },
-  {
-    "title": "Flow test",
-    "path": " THEORY: >  Flow test",
-    "subtopic": "context",
-    "text": "This is a laboratory test which gives an indication of the quality of concrete with respect to consistency, cohesiveness and the proneness to segregation. The spread or the flow of the concrete is measured and this flow is related to workability. Fig 4: Flow test table",
-    "id": "C_00019"
-  },
-  {
-    "title": "Kelly ball test",
-    "path": " THEORY: >  Kelly ball test",
-    "subtopic": "context",
-    "text": "This is a simple field test consisting of the measurement of the indentation made by 15 cm diameter metal hemisphere weighing 13.6 kg, when freely placed on fresh concrete. The test has been devised by Kelly and hence known as Kelly ball test. Fig 5: Kelly ball test",
-    "id": "C_00020"
-  },
-  {
-    "title": "Vee bee consistometer test",
-    "path": " THEORY: >  Vee bee consistometer test",
-    "subtopic": "context",
-    "text": "This test used for measuring indirectly the workability of concrete. Fig 6: Vee bee consistometer test",
-    "id": "C_00021"
   }
 ]
