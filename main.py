@@ -255,7 +255,7 @@ def daily_count():
 
 @app.get("/", response_class=HTMLResponse)
 def validation():
-    url = "http://https://faiss-chatbox-production.up.railway.app/static/dashboard.html"
+    url = "http://localhost:8000/static/dashboard.html"
     html_for_link = f"""
     <html>
     <head>
@@ -263,7 +263,7 @@ def validation():
     </head>
     <body>
     <div>
-    <button onclick=f"window.location.href='http://https://faiss-chatbox-production.up.railway.app/static/dashboard.html'">Dashboard</button>
+    <button onclick=f"window.location.href='http:localhost:8000/static/dashboard.html'">Dashboard</button>
     </div>
     </body>
     </html>        
