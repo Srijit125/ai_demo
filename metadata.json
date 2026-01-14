@@ -1,93 +1,317 @@
 [
   {
-    "title": "Perform Minor surgery",
-    "path": " Perform Minor surgery",
+    "title": "Programming language (Python) Use Python from command line",
+    "path": " Programming language (Python) Use Python from command line",
     "subtopic": "context",
     "text": "",
     "id": "C_00001"
   },
   {
-    "title": "Performing preoperative preparations",
-    "path": " Perform Minor surgery >  Performing preoperative preparations",
+    "title": "1.1.1 Introduction to Python",
+    "path": " 1.1.1 Introduction to Python",
     "subtopic": "context",
-    "text": "Performing preoperative preparations is an important part of ensuring a successful surgical procedure. Here are the general steps involved in preoperative preparations.",
+    "text": "Python is a general purpose, high-level, interpreted programming language developed by Guido van Rossum in the late 1980s at the National Research Institute for Mathematics and Computer Science in the Netherlands. Python is one of the most popular and widely used programming language used for set of tasks including console based, GUI based, web programming and data analysis. Python is an easy to learn and simple programming language so even if you are new to programming, you can learn python without facing any problems. Fact: Python is named after the comedy television show Monty Python's Flying Circus Python Applications Installation of Python",
     "id": "C_00002"
   },
   {
-    "title": "Review the surgical plan:",
-    "path": " Perform Minor surgery >  Review the surgical plan:",
+    "title": "1.1.2 Features of Python",
+    "path": " 1.1.2 Features of Python",
     "subtopic": "context",
-    "text": "Familiarize yourself with the surgical plan, including the specific procedure to be performed, any special considerations or requirements, and the expected outcome.",
+    "text": "Python provides lots of features that are listed below. Simple English-like syntax Ideal for beginners and rapid development. Interpreted Language No compilation required Executes code line-by-line Easier debugging. Cross-platform Language Runs on Windows, Linux, macOS, and Unix Same code works across platforms. Free and Open Source Completely free to download and use Source code can be modified and distributed. GUI Programming Support Create graphical applications using Tkinter, PyQt, etc. Integrated Can be integrated with C, C++, Java, and other languages",
     "id": "C_00003"
   },
   {
-    "title": "Gather surgical materials and supplies:",
-    "path": " Perform Minor surgery >  Gather surgical materials and supplies:",
+    "title": "Control Flow with Decisions and Loops",
+    "path": " Control Flow with Decisions and Loops",
     "subtopic": "context",
-    "text": "Ensure that all the necessary surgical instruments, supplies, and equipment are available and in good working condition. Check the expiration dates of sterile items and ensure they are within their validity period. Verify that you have the appropriate suture materials, surgical drapes, gauze, syringes, and any other specific supplies needed for the procedure.",
+    "text": "",
     "id": "C_00004"
   },
   {
-    "title": "Prepare the work area:",
-    "path": " Perform Minor surgery >  Prepare the work area:",
+    "title": "1.2.1 Introduction to Conditional Statements",
+    "path": " Control Flow with Decisions and Loops >  1.2.1 Introduction to Conditional Statements",
     "subtopic": "context",
-    "text": "Select an appropriate location for the surgery, such as a clean and well-lit operating room or a designated area with minimal distractions. Clean and disinfect the work area, including the operating table, surgical lights, and any surfaces or equipment that will come into contact with the surgical field. Set up a sterile field by covering the operating table with sterile drapes and arranging the necessary instruments and supplies in an organized manner.",
+    "text": "Conditional Statements in Python performs different computations or actions depending on conditions. In python, the following are conditional statements If statement If - else statement if - elif - else statement",
     "id": "C_00005"
   },
   {
-    "title": "Sterilize surgical instruments:",
-    "path": " Perform Minor surgery >  Sterilize surgical instruments:",
+    "title": "If statement",
+    "path": " Control Flow with Decisions and Loops >  If statement",
     "subtopic": "context",
-    "text": "Ensure that all reusable surgical instruments have been properly sterilized. Follow the recommended sterilization methods, such as autoclaving or chemical sterilization, and adhere to the appropriate sterilization cycles and protocols. Store the sterilized instruments in a clean and dry area or within a sterilization pouch until they are needed for the surgery.",
+    "text": "The if statement is used to test a specific condition. If the condition is true, a block of code (if-block) will be executed. Syntax: if expression: statement Example: a =33 b =200 if b > a: print(\"b is greater than a\") Output: b is greater than a",
     "id": "C_00006"
   },
   {
-    "title": "Prepare the animal",
-    "path": " Perform Minor surgery >  Prepare the animal",
+    "title": "1.2.3 If - else statement",
+    "path": " Control Flow with Decisions and Loops >  1.2.3 If - else statement",
     "subtopic": "context",
-    "text": "Perform a preoperative assessment of the animal, including a thorough physical examination and any necessary diagnostic tests or imaging. Ensure that the animal has been appropriately fasted, if required, to minimize the risk of regurgitation or aspiration during anesthesia. Administer any pre-anesthetic medications as directed by the veterinarian to prepare the animal for anesthesia and surgery.",
+    "text": "The if-else statement provides an else block combined with the if statement which is executed in the false case of the condition. If the condition is true, then the if-block is executed. Otherwise, the else-block is executed. Syntax: if expression: #block of statements else: #another block of statements Example: age =int(input(\"Enter your age : \")) if age >=18: print(\"You are eligible to vote !!\") else: print(\"Sorry! you have to wait !!\") Output: Enter your age:19 You are eligible to vote!!",
     "id": "C_00007"
   },
   {
-    "title": "Prepare the site of surgical correction",
-    "path": " Perform Minor surgery >  Prepare the site of surgical correction",
+    "title": "Chapter 3: Develop front-end application using react.js",
+    "path": " Chapter 3: Develop front-end application using react.js",
     "subtopic": "context",
-    "text": "Shave and clean the surgical site to remove hair and debris that could introduce contaminants into the surgical field. Use an appropriate antiseptic solution to disinfect the area surrounding the surgical site, following recommended protocols and ensuring adequate contact time. Place sterile drapes over the animal, covering the surgical site and creating a sterile field.",
+    "text": "",
     "id": "C_00008"
+  },
+  {
+    "title": "Overview",
+    "path": " Chapter 3: Develop front-end application using react.js >  Overview",
+    "subtopic": "context",
+    "text": "This project is a basic front-end application developed using ReactJS. It allows users to enter their name and displays a greeting message dynamically. The application demonstrates core React concepts like components, state, and event handling.",
+    "id": "C_00009"
+  },
+  {
+    "title": "Aim",
+    "path": " Chapter 3: Develop front-end application using react.js >  Aim",
+    "subtopic": "context",
+    "text": "To create a simple and interactive front-end application using ReactJS for beginners.",
+    "id": "C_00010"
+  },
+  {
+    "title": "Requirements",
+    "path": " Chapter 3: Develop front-end application using react.js >  Requirements",
+    "subtopic": "context",
+    "text": "A computer with Windows, Linux, or macOS Node.js\u00a0and\u00a0npm\u00a0installed A code editor (VS Code recommended) Basic knowledge of\u00a0HTML, CSS, and JavaScript",
+    "id": "C_00011"
   },
   {
     "title": "Theory",
     "path": " Theory",
     "subtopic": "context",
-    "text": "Minor surgery involves simple surgical procedures performed on animals under local anesthesia. These procedures cause minimal tissue damage and are commonly carried out to treat wounds, abscesses, or superficial injuries. The success of minor surgery depends on: Proper animal examination Maintenance of asepsis Correct use of surgical instruments Effective anesthesia Adequate post-operative care Aseptic technique is essential to prevent infection and promote quick healing. The image provides a summary of\u00a0Pain Management and Postoperative Care\u00a0for animals undergoing a tail amputation procedure.",
-    "id": "C_00009"
-  },
-  {
-    "title": "Pain Management and Postoperative Care:",
-    "path": " Theory >  Pain Management and Postoperative Care:",
-    "subtopic": "context",
-    "text": "Pain Management:\u00a0Appropriate pain management should be provided\u00a0before, during, and after\u00a0the tail amputation procedure to minimize discomfort and promote a smooth recovery. This may include: Local anesthesia Analgesics Other pain relief measures prescribed by a veterinarian. Postoperative Care:\u00a0Care typically involves: Wound monitoring\u00a0to ensure proper healing. Keeping the surgical site\u00a0clean and dry. Administering\u00a0prescribed medications\u00a0(e.g., antibiotics, analgesics) exactly as directed. Healing Process:\u00a0Depending on the species and the individual animal, healing can take\u00a0several weeks. It is crucial to follow the veterinarian\u2019s instructions regarding: Wound care Activity restrictions Follow-up appointments L5 \u2013 Operate farm machinery",
-    "id": "C_00010"
-  },
-  {
-    "title": "Operate farm machinery",
-    "path": " Operate farm machinery",
-    "subtopic": "context",
     "text": "",
-    "id": "C_00011"
-  },
-  {
-    "title": "Theory",
-    "path": " Operate farm machinery >  Theory",
-    "subtopic": "context",
-    "text": "To Identify and study major systems of a tractor and to learn general guidelines on preliminary check measures before starting a tractor - procedure for starting, running and stopping the tractor. Engine - Engine converts heat energy obtained during burning of fuel into mechanical energy. The energy obtained from engine is used to i) move the tractor ii) to pull the implements and trailer iii) to operate rotary machines like rotary tiller, pumping devices etc. Clutch - It is used to connect or disconnect engine power to the gear box of the tractor. Gear box - Gear box contains many pairs of gears to provide different speeds to the rear wheels. This system consists of components that are used to transmit the torque developed by the prime-mover or the engine to the driving wheels and to vary the torque and direction of rotation of the ground wheels. The greatest difference between transmission for farm tractors and those for highway vehicles is that in the tractor most of the gears may be used continuously under full load. Automobile transmissions would fail if they were run in low gear at full power for any length of time. All transmissions convert the engine torque and speed into a more useful combination of torque and speed at the drive wheels. Differential unit - This is also an assembly of gears in a special way. It provides differential speeds to rear wheels during turning of the tractor Final drive - This constitutes a pair of gears connecting the half shaft and the rear wheel axle so that the speed of the half shaft is very much reduced at the rear wheels and by this way the torque axle is increased. PTO shaft - Its full name is power take of shaft. It gets it drive from the gear box of the tractor. Rotating type of implements such as rotary tiller, water pumps, chaff cutter etc., can be operated using the PTO shaft drive. It is available at the rear /side of the tractor. The power available at the PTO shaft is about 87 % of engine power. Draw bar - It is a bracket located to the rear of the tractor to which trailed implements and trailers can be connected and worked. The power available at the draw bar is about 50-60 % of engine power. Because the maximum speed of a tractor is regulated by a governor, the potential maximum drawbar power of the tractor is nearly constant regardless of the forward speed, except for the lowest speeds when the maximum power is limited by traction. Hydraulic system - Hydraulic system operates the hydraulic cylinders which in turn actuate the lower links of the tractor so that the implements hitched to the lower links are lifted or lowered Three-point hitch system - The three links- one upper link and two lower links- available at the rear of the tractor constitute the three-point hitch system for the tractor. The lower links are actuated by the hydraulic system. An implement connected to the three links is called a mounted implement and an implement connected to the two lower links is called semi mounted implement. Steering system - It is useful to turn the front wheels either right side or left side so that tractor turns right or left. Brakes - when brakes are applied, brake drums located in the rear wheel drums stops the rotating wheels and the tractor stops. Cooling system - It cools the engine by removing heat with the help of water. It contains radiator, water pump, thermostat. Cool water is pumped into the water jackets of the engine, heat from engine body is transferred to water by conduction and the hot water is cooled in the radiator. Lubricating system - All the moving parts in the engine are lubricated by lubricating oil. Lubrication is necessary to reduce wear and tear of the moving parts of the engine. This system consists of oil sump, lubricating oil, and pipe lines.",
     "id": "C_00012"
   },
   {
-    "title": "Control Meters / Panel",
-    "path": " Operate farm machinery >  Control Meters / Panel",
+    "title": "React Introduction",
+    "path": " Theory >  React Introduction",
     "subtopic": "context",
-    "text": "Temperature gauge - It indicates the temperature of water in the radiator. When it reads with in green band, the engine is cooled properly. When it reads in the red band it means engine cooling in insufficient, may be due to defects in the cooling system components. This should be corrected. Oil gauge - It indicates the pressure with which oil is circulated in the engine parts. High pressure indicates blockage in the oil line and to be checked for correctness. Hour meter - It indicates the running hours of the engine Speedometer - It indicates the vehicle speed in km/h Ampere meter- It indicates the condition of the battery as well as charging of the battery by dynamo. All the above meters are placed in the panel board located in front of the driver.",
+    "text": "ReactJS is a JavaScript library by Facebook for building dynamic, single-page applications. It enables building reusable UI components for easier development and maintenance.",
     "id": "C_00013"
+  },
+  {
+    "title": "Component-Based Architecture",
+    "path": " Theory >  Component-Based Architecture",
+    "subtopic": "context",
+    "text": "UI is divided into small, reusable components, each controlling a specific part of the interface. Improves code reusability, readability, and maintenance.",
+    "id": "C_00014"
+  },
+  {
+    "title": "JSX (JavaScript XML)",
+    "path": " Theory >  JSX (JavaScript XML)",
+    "subtopic": "context",
+    "text": "Syntax that lets you write HTML-like code in JavaScript. Easier to design UI components; compiled to regular JavaScript.",
+    "id": "C_00015"
+  },
+  {
+    "title": "Virtual DOM",
+    "path": " Theory >  Virtual DOM",
+    "subtopic": "context",
+    "text": "Lightweight copy of the real DOM. Updates Virtual DOM first, then applies only necessary changes to the real DOM for better performance.",
+    "id": "C_00016"
+  },
+  {
+    "title": "State and Props",
+    "path": " Theory >  State and Props",
+    "subtopic": "context",
+    "text": "State:\u00a0stores component-specific, changeable data. Props:\u00a0pass data between components. Together, they manage dynamic data flow in the UI.",
+    "id": "C_00017"
+  },
+  {
+    "title": "Event Handling",
+    "path": " Theory >  Event Handling",
+    "subtopic": "context",
+    "text": "Handles user interactions like clicks and typing via event handlers. Events update state, causing dynamic UI updates without page reloads.",
+    "id": "C_00018"
+  },
+  {
+    "title": "Prerequisites",
+    "path": " Prerequisites",
+    "subtopic": "context",
+    "text": "",
+    "id": "C_00019"
+  },
+  {
+    "title": "Make sure you have",
+    "path": " Prerequisites >  Make sure you have",
+    "subtopic": "context",
+    "text": "Node.js\u00a0(LTS version) npm\u00a0(comes with Node.js) A code editor like\u00a0VS Code",
+    "id": "C_00020"
+  },
+  {
+    "title": "Check installation:",
+    "path": " Prerequisites >  Check installation:",
+    "subtopic": "context",
+    "text": "node -v npm \u2013v",
+    "id": "C_00021"
+  },
+  {
+    "title": "Setting up a React Environment",
+    "path": " Prerequisites >  Setting up a React Environment",
+    "subtopic": "context",
+    "text": "First, make sure you have Node.js installed. You can check by running this in your terminal. node -v If Node.js is installed, you will get a result with the version number: v22.15.0 If not, you will need to install Node.js.",
+    "id": "C_00022"
+  },
+  {
+    "title": "Install a Build Tool (Vite)",
+    "path": " Prerequisites >  Install a Build Tool (Vite)",
+    "subtopic": "context",
+    "text": "When you have Node.js installed, you can start creating a React application by choosing a build tool. We will use the\u00a0Vite\u00a0build tool in this tutorial. Run this command to install Vite: npm install -g create-vite If the installation was a success, you will get a result like this: added 1 package in 649ms",
+    "id": "C_00023"
+  },
+  {
+    "title": "Create a React App",
+    "path": " Prerequisites >  Create a React App",
+    "subtopic": "context",
+    "text": "npm create vit The easiest way to start is using\u00a0Create React App npx create-react-app my-react-app cd my-react-app npm start Your app will open at http://localhost:3000 Run this command to create a React application named\u00a0my-react-app: npm create vite@latest my-react-app -- -- template react If you get this message, just press\u00a0y\u00a0and press\u00a0Enter\u00a0to continue: Need to install the following packages: create-vite@6.5.0 Ok to proceed? (y) If the creation was a success, you will get a result like this: > npx\n> create-vite my-react-app -- template react Scaffolding project in C:\\User\\stale\\my-react-app... Done. Now run: cd my-react-app npm install npm run dev",
+    "id": "C_00024"
+  },
+  {
+    "title": "Install Dependencies",
+    "path": " Prerequisites >  Install Dependencies",
+    "subtopic": "context",
+    "text": "As the result above suggests, navigate to your new react application directory cd my-react-app And run this command to install dependencies: npm install Which will result in this: added 154 packages, and audited 155 packages in 8s 33 packages are looking for funding run 'npm fund' for details found 0 vulnerabilities",
+    "id": "C_00025"
+  },
+  {
+    "title": "Run the React Application",
+    "path": " Prerequisites >  Run the React Application",
+    "subtopic": "context",
+    "text": "Now you are ready to run your first\u00a0real\u00a0React application! Run this command to run the React application\u00a0my-react-app: npm run dev Which will result in this: VITE v6.3.5 ready in 217 ms Local: https://localhost:5173/ Network: use --host to expose press h + enter to show help A new browser window will pop up with your newly created React App! If not, open your browser and type\u00a0localhost:5173\u00a0in the address bar.",
+    "id": "C_00026"
+  },
+  {
+    "title": "Simple Front-End React Application",
+    "path": " Simple Front-End React Application",
+    "subtopic": "context",
+    "text": "",
+    "id": "C_00027"
+  },
+  {
+    "title": "What This App Does",
+    "path": " Simple Front-End React Application >  What This App Does",
+    "subtopic": "context",
+    "text": "Takes a user\u2019s name Displays a greeting message Uses only basic React concepts",
+    "id": "C_00028"
+  },
+  {
+    "title": "Step 1: Create React App",
+    "path": " Simple Front-End React Application >  What This App Does >  Step 1: Create React App",
+    "subtopic": "context",
+    "text": "Step 1: Create React App Open terminal and run npx create-react-app greeting-app cd greeting-app npm start Basic Project Structure Important files you\u2019ll use src/ \u251c\u2500\u2500 App.js \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0// Main component \u251c\u2500\u2500 index.js \u00a0\u00a0\u00a0\u00a0\u00a0// Entry point \u251c\u2500\u2500 App.css \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0// Styling \u2514\u2500\u2500 components/ \u00a0\u00a0// Your custom components",
+    "id": "C_00029"
+  },
+  {
+    "title": "Step 2: Edit the Main Files",
+    "path": " Simple Front-End React Application >  What This App Does >  Step 2: Edit the Main Files",
+    "subtopic": "context",
+    "text": "Look in the greeting-app directory, and you will find a src folder. Inside the src folder there is a file called App.js, open it and it will look like this src/App.js import React, { useState } from \"react\"; import \"./App.css\"; function App() { const [name, setName] = useState(\"\"); return ( <div className=\"container\"> <h1>Greeting App</h1> <input type=\"text\" placeholder=\"Enter your name\" value={name} onChange={(e) => setName(e.target(opens in a new tab).value)} /> {name && <h2>Hello, {name}! \ud83d\udc4b</h2>} </div> ); } export default App;",
+    "id": "C_00030"
+  },
+  {
+    "title": "Step 3: Add Styling in src/App.css",
+    "path": " Simple Front-End React Application >  What This App Does >  Step 3: Add Styling in src/App.css",
+    "subtopic": "context",
+    "text": "body { font-family: Arial, sans-serif; background-color: #f0f0f0; } .container { width: 300px; margin: 100px auto; background: white; padding: 20px; text-align: center; border-radius: 8px; } input { padding: 8px; width: 90%; margin-top: 10px; }",
+    "id": "C_00031"
+  },
+  {
+    "title": "Step 4: How It Works",
+    "path": " Simple Front-End React Application >  What This App Does >  Step 4: How It Works",
+    "subtopic": "context",
+    "text": "useState Stores the user\u2019s name. const [name, setName] = useState(\"\");",
+    "id": "C_00032"
+  },
+  {
+    "title": "Input Handling",
+    "path": " Simple Front-End React Application >  Input Handling",
+    "subtopic": "context",
+    "text": "Updates state when user types. onChange={(e) => setName(e.target.value)}",
+    "id": "C_00033"
+  },
+  {
+    "title": "Conditional Rendering",
+    "path": " Simple Front-End React Application >  Conditional Rendering",
+    "subtopic": "context",
+    "text": "Shows greeting only if name is entered. {name && <h2>Hello, {name}!</h2>} Output Text box to enter name Greeting appears instantly Your first simple React front-end app is ready!",
+    "id": "C_00034"
+  },
+  {
+    "title": "ReactJS Bug Busters",
+    "path": " ReactJS Bug Busters",
+    "subtopic": "context",
+    "text": "Problem 1: Missing useState import Problem 2: Event handler called immediately Problem 3: Input value not updating Problem 4: Returning multiple JSX elements without wrapper",
+    "id": "C_00035"
+  },
+  {
+    "title": "Loop Statements in python",
+    "path": " Loop Statements in python",
+    "subtopic": "context",
+    "text": "",
+    "id": "C_00036"
+  },
+  {
+    "title": "Overview",
+    "path": " Loop Statements in python >  Overview",
+    "subtopic": "context",
+    "text": "This chapter introduces the concept of loop statements in Python, which are used to repeat a block of code multiple times. It covers two main types of loops: While Loop: executes as long as a condition remains true. For Loop: iterates over a sequence (like lists, tuples, or strings). The chapter also explains how to use else with loops, nested loops, and practical applications such as printing tables and star patterns.",
+    "id": "C_00037"
+  },
+  {
+    "title": "Aim",
+    "path": " Loop Statements in python >  Aim",
+    "subtopic": "context",
+    "text": "To enable students to understand and implement different types of loop structures in Python for repetitive tasks, and to apply loops in solving real-world programming problems.",
+    "id": "C_00038"
+  },
+  {
+    "title": "Requirements",
+    "path": " Loop Statements in python >  Requirements",
+    "subtopic": "context",
+    "text": "Basic understanding of Python syntax and variables. Knowledge of conditional statements. Python interpreter installed IDLE, PyCharm, Jupyter, etc.. Practice problems involving repetitive logic (e.g., printing patterns, traversing sequences).",
+    "id": "C_00039"
+  },
+  {
+    "title": "1.3.1 Introduction to Loop Statements",
+    "path": " 1.3.1 Introduction to Loop Statements",
+    "subtopic": "context",
+    "text": "Sometimes we may need to alter the flow of the program. If the execution of a specific code may need to be repeated several numbers of times, then we can go for loop statements. For this purpose, the python provides various types of loops which are capable of repeating some specific code several numbers of times. Those are, while loop for loop",
+    "id": "C_00040"
+  },
+  {
+    "title": "1.3.2 while loop",
+    "path": " 1.3.2 while loop",
+    "subtopic": "context",
+    "text": "With the while loop we can execute a set of statements as long as a condition is true. The while loop is mostly used in the case where the number of iterations is not known in advance. Syntax: while expression: Statement(s) Example: i=1; while i<=3: print(i); i=i+1; Output: 1 2 3",
+    "id": "C_00041"
+  },
+  {
+    "title": "1.3.3 Using else with while loop",
+    "path": " 1.3.3 Using else with while loop",
+    "subtopic": "context",
+    "text": "Python enables us to use the while loop with the else block also. The else block is executed when the condition given in the while statement becomes false. Syntax: while expression: Statements else: Statements Example: i=1; while i<=3: print(i) i=i+1; else:print(\"The while loop terminated\"); Output: 1 2 3 The while loop terminated",
+    "id": "C_00042"
+  },
+  {
+    "title": "1.3.4 for loop",
+    "path": " 1.3.4 for loop",
+    "subtopic": "context",
+    "text": "The for loop in Python is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like list, tuple, or dictionary. Syntax: for iterating_var in sequence: statement(s) Example: i=1 n=int(input(\"Enter n value : \")) for i in range(i,n+1): print(i,end =' ') Output: Enter n value: 5 1 2 3 4 5",
+    "id": "C_00043"
+  },
+  {
+    "title": "1.3.5 Using else with for loop",
+    "path": " 1.3.5 Using else with for loop",
+    "subtopic": "context",
+    "text": "Python allows us to use the else statement with the for loop which can be executed only when all the iterations are exhausted. Here, we must notice that if the loop contains any of the break statement, then the else statement will not be executed. Syntax: for iterating_var in sequence: statements else: statements Example: for i in range(0,5): print(i) else: print(\"for loop completely exhausted\"); Output: 0 1 2 3 4 Note The range() function returns a sequence of numbers, starting from0 by default,and increments by 1(by default),and ends at a specified number. Example: range(6) means the values from0 to 5. range(2,6) means the values from2 to 5. Example Program: Aim: Program to printing the table of the given number Example: i=1; num =int(input(\"Enter a number:\")); for i inrange(1,11): print(\"%d X %d = %d\"%(num,i,num*i)) Output: Enter a number:10 10 X 1=10 10 X 2=20 10 X 3=30 10 X 4=40 10 X 5=50 10 X 6=60 10 X 7=70 10 X 8=80 10 X 9=90 10 X 10=100",
+    "id": "C_00044"
+  },
+  {
+    "title": "1.3.6 Nested for loop in python",
+    "path": " 1.3.6 Nested for loop in python",
+    "subtopic": "context",
+    "text": "Python allows us to nest any number of for loops inside a for loop. The inner loop is executed n number of times for every iteration of the outer loop. Syntax: for iterating_var1 in sequence: for iterating_var2 in sequence: #block of statements Example Program: Aim: Program to printing the rows of stars of the given number Example: n =int(input(\"Enter the no.of rows you want to print : \")) for i inrange(0,n): for j inrange(0,i+1): print(\"*\",end=\"\") print() Output: Enter the no. of rows you want to print:4 * * * * * * * * * *",
+    "id": "C_00045"
   }
 ]
