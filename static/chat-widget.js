@@ -172,7 +172,7 @@
             conversationHistory.shift();
         }
 
-        const res = await fetch("http://localhost:8000/api/chat", {
+        const res = await fetch("http://empowering-cat-production-f00d.up.railway.app/api/chat", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ question, history: conversationHistory }),
