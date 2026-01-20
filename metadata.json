@@ -7,15 +7,15 @@
     "id": "C_00001"
   },
   {
-    "title": "1.1.1 Introduction to Python",
-    "path": " 1.1.1 Introduction to Python",
+    "title": "Introduction to Python",
+    "path": "Introduction to Python",
     "subtopic": "context",
     "text": "Python is a general purpose, high-level, interpreted programming language developed by Guido van Rossum in the late 1980s at the National Research Institute for Mathematics and Computer Science in the Netherlands. Python is one of the most popular and widely used programming language used for set of tasks including console based, GUI based, web programming and data analysis. Python is an easy to learn and simple programming language so even if you are new to programming, you can learn python without facing any problems. Fact: Python is named after the comedy television show Monty Python's Flying Circus Python Applications Installation of Python",
     "id": "C_00002"
   },
   {
-    "title": "1.1.2 Features of Python",
-    "path": " 1.1.2 Features of Python",
+    "title": "Features of Python",
+    "path": "Features of Python",
     "subtopic": "context",
     "text": "Python provides lots of features that are listed below. Simple English-like syntax Ideal for beginners and rapid development. Interpreted Language No compilation required Executes code line-by-line Easier debugging. Cross-platform Language Runs on Windows, Linux, macOS, and Unix Same code works across platforms. Free and Open Source Completely free to download and use Source code can be modified and distributed. GUI Programming Support Create graphical applications using Tkinter, PyQt, etc. Integrated Can be integrated with C, C++, Java, and other languages",
     "id": "C_00003"
@@ -28,8 +28,8 @@
     "id": "C_00004"
   },
   {
-    "title": "1.2.1 Introduction to Conditional Statements",
-    "path": " Control Flow with Decisions and Loops >  1.2.1 Introduction to Conditional Statements",
+    "title": "Introduction to Conditional Statements",
+    "path": " Control Flow with Decisions and Loops > Introduction to Conditional Statements",
     "subtopic": "context",
     "text": "Conditional Statements in Python performs different computations or actions depending on conditions. In python, the following are conditional statements If statement If - else statement if - elif - else statement",
     "id": "C_00005"
@@ -42,36 +42,36 @@
     "id": "C_00006"
   },
   {
-    "title": "1.2.3 If - else statement",
-    "path": " Control Flow with Decisions and Loops >  1.2.3 If - else statement",
+    "title": "If - else statement",
+    "path": " Control Flow with Decisions and Loops > If - else statement",
     "subtopic": "context",
     "text": "The if-else statement provides an else block combined with the if statement which is executed in the false case of the condition. If the condition is true, then the if-block is executed. Otherwise, the else-block is executed. Syntax: if expression: #block of statements else: #another block of statements Example: age =int(input(\"Enter your age : \")) if age >=18: print(\"You are eligible to vote !!\") else: print(\"Sorry! you have to wait !!\") Output: Enter your age:19 You are eligible to vote!!",
     "id": "C_00007"
   },
   {
-    "title": "Chapter 3: Develop front-end application using react.js",
-    "path": " Chapter 3: Develop front-end application using react.js",
+    "title": " Develop front-end application using react.js",
+    "path": "  Develop front-end application using react.js",
     "subtopic": "context",
     "text": "",
     "id": "C_00008"
   },
   {
     "title": "Overview",
-    "path": " Chapter 3: Develop front-end application using react.js >  Overview",
+    "path": "  Develop front-end application using react.js >  Overview",
     "subtopic": "context",
     "text": "This project is a basic front-end application developed using ReactJS. It allows users to enter their name and displays a greeting message dynamically. The application demonstrates core React concepts like components, state, and event handling.",
     "id": "C_00009"
   },
   {
     "title": "Aim",
-    "path": " Chapter 3: Develop front-end application using react.js >  Aim",
+    "path": "  Develop front-end application using react.js >  Aim",
     "subtopic": "context",
     "text": "To create a simple and interactive front-end application using ReactJS for beginners.",
     "id": "C_00010"
   },
   {
     "title": "Requirements",
-    "path": " Chapter 3: Develop front-end application using react.js >  Requirements",
+    "path": "  Develop front-end application using react.js >  Requirements",
     "subtopic": "context",
     "text": "A computer with Windows, Linux, or macOS Node.js\u00a0and\u00a0npm\u00a0installed A code editor (VS Code recommended) Basic knowledge of\u00a0HTML, CSS, and JavaScript",
     "id": "C_00011"
@@ -196,29 +196,29 @@
     "id": "C_00028"
   },
   {
-    "title": "Step 1: Create React App",
-    "path": " Simple Front-End React Application >  What This App Does >  Step 1: Create React App",
+    "title": "Create React App",
+    "path": " Simple Front-End React Application >  What This App Does > Create React App",
     "subtopic": "context",
     "text": "Step 1: Create React App Open terminal and run npx create-react-app greeting-app cd greeting-app npm start Basic Project Structure Important files you\u2019ll use src/ \u251c\u2500\u2500 App.js \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0// Main component \u251c\u2500\u2500 index.js \u00a0\u00a0\u00a0\u00a0\u00a0// Entry point \u251c\u2500\u2500 App.css \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0// Styling \u2514\u2500\u2500 components/ \u00a0\u00a0// Your custom components",
     "id": "C_00029"
   },
   {
-    "title": "Step 2: Edit the Main Files",
-    "path": " Simple Front-End React Application >  What This App Does >  Step 2: Edit the Main Files",
+    "title": "Edit the Main Files",
+    "path": " Simple Front-End React Application >  What This App Does > Edit the Main Files",
     "subtopic": "context",
     "text": "Look in the greeting-app directory, and you will find a src folder. Inside the src folder there is a file called App.js, open it and it will look like this src/App.js import React, { useState } from \"react\"; import \"./App.css\"; function App() { const [name, setName] = useState(\"\"); return ( <div className=\"container\"> <h1>Greeting App</h1> <input type=\"text\" placeholder=\"Enter your name\" value={name} onChange={(e) => setName(e.target(opens in a new tab).value)} /> {name && <h2>Hello, {name}! \ud83d\udc4b</h2>} </div> ); } export default App;",
     "id": "C_00030"
   },
   {
-    "title": "Step 3: Add Styling in src/App.css",
-    "path": " Simple Front-End React Application >  What This App Does >  Step 3: Add Styling in src/App.css",
+    "title": "Add Styling in src/App.css",
+    "path": " Simple Front-End React Application >  What This App Does > Add Styling in src/App.css",
     "subtopic": "context",
     "text": "body { font-family: Arial, sans-serif; background-color: #f0f0f0; } .container { width: 300px; margin: 100px auto; background: white; padding: 20px; text-align: center; border-radius: 8px; } input { padding: 8px; width: 90%; margin-top: 10px; }",
     "id": "C_00031"
   },
   {
-    "title": "Step 4: How It Works",
-    "path": " Simple Front-End React Application >  What This App Does >  Step 4: How It Works",
+    "title": "How It Works",
+    "path": " Simple Front-End React Application >  What This App Does > How It Works",
     "subtopic": "context",
     "text": "useState Stores the user\u2019s name. const [name, setName] = useState(\"\");",
     "id": "C_00032"
@@ -273,43 +273,43 @@
     "id": "C_00039"
   },
   {
-    "title": "1.3.1 Introduction to Loop Statements",
-    "path": " 1.3.1 Introduction to Loop Statements",
+    "title": "Introduction to Loop Statements",
+    "path": "Introduction to Loop Statements",
     "subtopic": "context",
     "text": "Sometimes we may need to alter the flow of the program. If the execution of a specific code may need to be repeated several numbers of times, then we can go for loop statements. For this purpose, the python provides various types of loops which are capable of repeating some specific code several numbers of times. Those are, while loop for loop",
     "id": "C_00040"
   },
   {
-    "title": "1.3.2 while loop",
-    "path": " 1.3.2 while loop",
+    "title": "while loop",
+    "path": "while loop",
     "subtopic": "context",
     "text": "With the while loop we can execute a set of statements as long as a condition is true. The while loop is mostly used in the case where the number of iterations is not known in advance. Syntax: while expression: Statement(s) Example: i=1; while i<=3: print(i); i=i+1; Output: 1 2 3",
     "id": "C_00041"
   },
   {
-    "title": "1.3.3 Using else with while loop",
-    "path": " 1.3.3 Using else with while loop",
+    "title": "Using else with while loop",
+    "path": "Using else with while loop",
     "subtopic": "context",
     "text": "Python enables us to use the while loop with the else block also. The else block is executed when the condition given in the while statement becomes false. Syntax: while expression: Statements else: Statements Example: i=1; while i<=3: print(i) i=i+1; else:print(\"The while loop terminated\"); Output: 1 2 3 The while loop terminated",
     "id": "C_00042"
   },
   {
-    "title": "1.3.4 for loop",
-    "path": " 1.3.4 for loop",
+    "title": "for loop",
+    "path": "for loop",
     "subtopic": "context",
     "text": "The for loop in Python is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like list, tuple, or dictionary. Syntax: for iterating_var in sequence: statement(s) Example: i=1 n=int(input(\"Enter n value : \")) for i in range(i,n+1): print(i,end =' ') Output: Enter n value: 5 1 2 3 4 5",
     "id": "C_00043"
   },
   {
-    "title": "1.3.5 Using else with for loop",
-    "path": " 1.3.5 Using else with for loop",
+    "title": "Using else with for loop",
+    "path": "Using else with for loop",
     "subtopic": "context",
     "text": "Python allows us to use the else statement with the for loop which can be executed only when all the iterations are exhausted. Here, we must notice that if the loop contains any of the break statement, then the else statement will not be executed. Syntax: for iterating_var in sequence: statements else: statements Example: for i in range(0,5): print(i) else: print(\"for loop completely exhausted\"); Output: 0 1 2 3 4 Note The range() function returns a sequence of numbers, starting from0 by default,and increments by 1(by default),and ends at a specified number. Example: range(6) means the values from0 to 5. range(2,6) means the values from2 to 5. Example Program: Aim: Program to printing the table of the given number Example: i=1; num =int(input(\"Enter a number:\")); for i inrange(1,11): print(\"%d X %d = %d\"%(num,i,num*i)) Output: Enter a number:10 10 X 1=10 10 X 2=20 10 X 3=30 10 X 4=40 10 X 5=50 10 X 6=60 10 X 7=70 10 X 8=80 10 X 9=90 10 X 10=100",
     "id": "C_00044"
   },
   {
-    "title": "1.3.6 Nested for loop in python",
-    "path": " 1.3.6 Nested for loop in python",
+    "title": "Nested for loop in python",
+    "path": "Nested for loop in python",
     "subtopic": "context",
     "text": "Python allows us to nest any number of for loops inside a for loop. The inner loop is executed n number of times for every iteration of the outer loop. Syntax: for iterating_var1 in sequence: for iterating_var2 in sequence: #block of statements Example Program: Aim: Program to printing the rows of stars of the given number Example: n =int(input(\"Enter the no.of rows you want to print : \")) for i inrange(0,n): for j inrange(0,i+1): print(\"*\",end=\"\") print() Output: Enter the no. of rows you want to print:4 * * * * * * * * * *",
     "id": "C_00045"
