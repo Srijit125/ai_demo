@@ -91,22 +91,22 @@
             color: white;
         }
     `;
-    document.head.appendChild(style);
+  document.head.appendChild(style);
 
-    // Conversation History
-    const conversationHistory = [];
-    const MAX_HISTORY = 3;
+  // Conversation History
+  const conversationHistory = [];
+  const MAX_HISTORY = 3;
 
-    // --- Bubble ---
-    const bubble = document.createElement("div");
-    bubble.id = "chatbot-bubble";
-    bubble.innerHTML = "Chat";
-    document.body.appendChild(bubble);
+  // --- Bubble ---
+  const bubble = document.createElement("div");
+  bubble.id = "chatbot-bubble";
+  bubble.innerHTML = "Chat";
+  document.body.appendChild(bubble);
 
-    // --- Modal ---
-    const modal = document.createElement("div");
-    modal.id = "chatbot-modal";
-    modal.innerHTML = `
+  // --- Modal ---
+  const modal = document.createElement("div");
+  modal.id = "chatbot-modal";
+  modal.innerHTML = `
         <div id="chatbot-header">
             Ask course related questions
             <span id="chatbot-close">&times;</span>
@@ -117,79 +117,82 @@
             <button id="chatbot-send">Send</button>
         </div>
     `;
-    document.body.appendChild(modal);
+  document.body.appendChild(modal);
 
-    const messages = document.getElementById("chatbot-messages");
-    const input = document.getElementById("chatbot-input");
+  const messages = document.getElementById("chatbot-messages");
+  const input = document.getElementById("chatbot-input");
 
-    // Open & Close
-    bubble.onclick = () =>
-        (document.getElementById("chatbot-modal").style.display = "block");
-    document.getElementById("chatbot-close").onclick = () => {
-        modal.style.display = "none";
-    };
+  // Open & Close
+  bubble.onclick = () =>
+    (document.getElementById("chatbot-modal").style.display = "block");
+  document.getElementById("chatbot-close").onclick = () => {
+    modal.style.display = "none";
+  };
 
-      // Append Messages
-    function addMessage(text, cls) {
-        const div = document.createElement("div");
-        div.className = cls;
-        div.innerHTML = text;
-        messages.appendChild(div);
-        messages.scrollTop = messages.scrollHeight;
-    } 
+  // Append Messages
+  function addMessage(text, cls) {
+    const div = document.createElement("div");
+    div.className = cls;
+    div.innerHTML = text;
+    messages.appendChild(div);
+    messages.scrollTop = messages.scrollHeight;
+  }
 
-    // Add  followup questions
-    function addFollowups(followups) {
-        if (!followups || !followups.length) return;
+  // Add  followup questions
+  function addFollowups(followups) {
+    if (!followups || !followups.length) return;
 
-        const container = document.createElement("div");
-        container.className = "followup-container";
+    const container = document.createElement("div");
+    container.className = "followup-container";
 
-        followups.forEach(q => {
-            const btn = document.createElement("button");
-            btn.className = "followup-btn";
-            btn.innerText = q;
-            btn.onclick = () => {
-                input.value = q;
-                sendChat()
-            };
-            container.appendChild(btn)
-        });
+    followups.forEach((q) => {
+      const btn = document.createElement("button");
+      btn.className = "followup-btn";
+      btn.innerText = q;
+      btn.onclick = () => {
+        input.value = q;
+        sendChat();
+      };
+      container.appendChild(btn);
+    });
 
-        messages.appendChild(container);
-        messages.scrollTop = messages.scrollHeight;
+    messages.appendChild(container);
+    messages.scrollTop = messages.scrollHeight;
+  }
+
+  async function sendChat() {
+    const question = input.value.trim();
+    if (!question) return;
+
+    addMessage(question, "user-msg");
+    input.value = "";
+
+    conversationHistory.push(question);
+    if (conversationHistory.length > MAX_HISTORY) {
+      conversationHistory.shift();
     }
 
-    async function sendChat() {
-        const question = input.value.trim();
-        if (!question) return;
+    const res = await fetch(
+      "https://kind-courtesy-production-5927.up.railway.app/api/chat",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question, history: conversationHistory }),
+      },
+    );
 
-        addMessage(question, "user-msg");
-        input.value = "";
+    const data = await res.json();
 
-        conversationHistory.push(question);
-        if (conversationHistory.length> MAX_HISTORY) {
-            conversationHistory.shift();
-        }
+    addMessage(
+      `<b>${data.answer.replace("->", ": ")}</b><br><small><i>${
+        data.reference[0]["path"]
+      }</i></small>`,
+      "bot-msg",
+    );
 
-        const res = await fetch("https://kind-courtesy-production-5927.up.railway.app/api/chat", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ question, history: conversationHistory }),
-        });
+    addFollowups(data.follow_up_questions);
+  }
 
-        const data = await res.json();
-        
-        addMessage(
-            `<b>${data.answer.replace("->", ": ")}</b><br><small><i>${
-            data.reference[0]['path']
-            }</i></small>`,
-            "bot-msg"
-        );
-
-        addFollowups(data.follow_up_questions);
-    }
-
-    document.getElementById("chatbot-send").onclick = sendChat;
-    input.addEventListener("keypress", (e) => e.key === "Enter" && sendChat());
+  document.getElementById("chatbot-send").onclick = sendChat;
+  input.addEventListener("keypress", (e) => e.key === "Enter" && sendChat());
 })();
