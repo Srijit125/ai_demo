@@ -5,3 +5,5 @@ requests
 pydantic
 huggingface_hub
 python_dotenv
+python-docx
+sentence-transformers

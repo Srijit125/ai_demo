@@ -4,3 +4,7 @@ __pycache__/
 process_docx/
 docs/
 Demo 1/
+
+venv
+.\venv
+.venv
