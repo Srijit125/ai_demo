@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 process_docx/
 docs/
+docs_dress_making/
 Demo 1/
 
 venv

@@ -1,443 +1,93 @@
 [
   {
-    "title": "Introduction to Python",
-    "path": " Introduction to Python",
+    "title": "What is a Motorized Sewing Machine?",
+    "path": " What is a Motorized Sewing Machine?",
     "subtopic": "context",
-    "text": "Python is a general purpose, high-level, interpreted programming language developed by Guido van Rossum in the late 1980s at the National Research Institute for Mathematics and Computer Science in the Netherlands. Python is one of the most popular and widely used programming language used for set of tasks including console based, GUI based, web programming and data analysis. Python is an easy to learn and simple programming language so even if you are new to programming, you can learn python without facing any problems. Fact: Python is named after the comedy television show Monty Python's Flying Circus Python Applications Installation of Python",
+    "text": "A motorized sewing machine is a fast sewing machine used in tailoring and garment industries. The balance of wheel is attached to the motor with a belt. There is a treadle which when pressed with foot helps to run the machine. It works using an electric motor. The motor is connected to the balance wheel using a belt. A foot pedal (treadle) is used to control the speed. When you press the pedal, the machine starts running.",
     "id": "C_00001"
   },
   {
-    "title": "Features of Python",
-    "path": " Features of Python",
+    "title": "Parts of Motorized Sewing Machine",
+    "path": " What is a Motorized Sewing Machine? >  Parts of Motorized Sewing Machine",
     "subtopic": "context",
-    "text": "Python provides lots of features that are listed below. Simple English-like syntax Ideal for beginners and rapid development.",
+    "text": "Presser foot Needle Needle bar Thread take-up lever Presser foot lever Knee lifter Motor Foot pedal (accelerator) Balance wheel Bobbin winder Stitch regulator Thread tension control",
     "id": "C_00002"
   },
   {
-    "title": "Interpreted Language",
-    "path": " Features of Python >  Interpreted Language",
+    "title": "Types of Sewing Machines",
+    "path": " What is a Motorized Sewing Machine? >  Types of Sewing Machines",
     "subtopic": "context",
-    "text": "No compilation required Executes code line-by-line Easier debugging.",
+    "text": "Motorized sewing machines are classified based on the type of stitch they produce. Lock Stitch Machine Chain Stitch Machine",
     "id": "C_00003"
   },
   {
-    "title": "Cross-platform Language",
-    "path": " Features of Python >  Cross-platform Language",
+    "title": "Lock Stitch Machine",
+    "path": " Lock Stitch Machine",
     "subtopic": "context",
-    "text": "Runs on Windows, Linux, macOS, and Unix Same code works across platforms.",
+    "text": "Lock stitch machines are the most frequently used for ready to wear apparel production. Lock stitch machine is the common machine used in domestic tailoring and industrial production. The stitch is formed by interlocking two threads. This machine is distinguished by the winding device provided for the bottom thread (Bobbin thread).",
     "id": "C_00004"
   },
   {
-    "title": "Free and Open Source",
-    "path": " Features of Python >  Free and Open Source",
+    "title": "Single Needle Lock Stitch Machine",
+    "path": " Lock Stitch Machine >  Single Needle Lock Stitch Machine",
     "subtopic": "context",
-    "text": "Completely free to download and use Source code can be modified and distributed.",
+    "text": "This machine has a needle thread as well as a bobbin thread for the loop formation purposes. Loop formation of this machine occurs according to the interloping terminology.",
     "id": "C_00005"
   },
   {
-    "title": "GUI Programming Support",
-    "path": " Features of Python >  GUI Programming Support",
+    "title": "Methodology behind the loop formation",
+    "path": " Lock Stitch Machine >  Methodology behind the loop formation",
     "subtopic": "context",
-    "text": "Create graphical applications using Tkinter, PyQt, etc.",
+    "text": "The formation of a stitch begins when the needle penetrates the fabric and descends to its lowest point. The bobbin hook then slides by the needle\u2019s scarf, catching the upper thread, and carries it around the bobbin thread. The thread is then pulled up into the fabric, completing the stitch.",
     "id": "C_00006"
   },
   {
-    "title": "Integrated",
-    "path": " Features of Python >  Integrated",
+    "title": "Double Needle Lock Stitch Machine",
+    "path": " Lock Stitch Machine >  Double Needle Lock Stitch Machine",
     "subtopic": "context",
-    "text": "Can be integrated with C, C++, Java, and other languages",
+    "text": "This machine has two needle threads and two bobbin threads to form lock stitch. Double needle lock stitch machines stitch formation is same as single needle lock stitch machine but forms two lock stitches which are parallel to each other.",
     "id": "C_00007"
   },
   {
-    "title": "Introduction to Conditional Statements",
-    "path": " Introduction to Conditional Statements",
+    "title": "Chain Stitch Machine",
+    "path": " Chain Stitch Machine",
     "subtopic": "context",
-    "text": "Conditional Statements in Python performs different computations or actions depending on conditions. In python, the following are conditional statements If statement If - else statement if - elif - else statement",
+    "text": "This machine is specially designed for attaching waistbands to garments such as jeans and casual pants. It can handle two types of waistband styles. Pre-cut waistband Continuous band style It provides accurate stitching and strong, durable seams, which are very important in chain stitching operations. Chain stitch machines use special under threads called looper threads, which are supplied from large thread cones. In this machine, the stitch is formed using a continuous series of loops, creating a chain-like structure. It can be identified by A thread tension device mounted on the machine arm Absence of a spool winder",
     "id": "C_00008"
   },
   {
-    "title": "If statement",
-    "path": " If statement",
+    "title": "Care and Maintenance",
+    "path": " Care and Maintenance",
     "subtopic": "context",
-    "text": "The if statement is used to test a specific condition. If the condition is true, a block of code (if-block) will be executed.",
+    "text": "Clean the machine regularly. Oil the machine for smooth working. Cover the machine when not in use. Remove dust and thread pieces before oiling. Use a soft brush or cloth for cleaning.",
     "id": "C_00009"
   },
   {
-    "title": "Syntax:",
-    "path": " If statement >  Syntax:",
+    "title": "Introduction to Over lock Machines",
+    "path": " Introduction to Over lock Machines",
     "subtopic": "context",
-    "text": "if expression: statement",
+    "text": "An overlock machine, also known as a serger, is a specialized sewing machine that uses multiple threads to finish the edges of fabric unlike a standard sewing machine, an overlock machine uses loopers instead of a bobbin, and it trims the seam allowance as it stitches to create a neat, professional \u2013 looking seam. Overlock machines a special purpose machine used for finishing edges and sometimes for seaming. It falls under the class 500, which means stitches are formed with one or more groups of threads and have a general characteristic that loops from at least one group of threads pass around the edge of the material. Overlock sewing machines are usually runs at high speeds, from 1000 to 9001 rpm and mostly are used in industry for edging, hemming and seaming a variety of fabrics and products. Overlock stitches are also used for decoration, reinforcement or construction. Overlock machines come in different models but all are basically similar.",
     "id": "C_00010"
   },
   {
-    "title": "Example:",
-    "path": " If statement >  Example:",
+    "title": "Parts of the machine",
+    "path": " Introduction to Over lock Machines >  Parts of the machine",
     "subtopic": "context",
-    "text": "a =33 b =200 if b > a: print(\"b is greater than a\")",
+    "text": "Needle bar Thumb screw (to regulate pressure of the presser foot) Thread cutter Presser foot Needle Tension set (for needle) Tension set (for over looper) Tension set (for under looper) Cloth plate Slide cover Hand wheel (rotates in clockwise direction) Feed ration Sight glass (or) window Indicates lubrication of the mechanism Indicates the level of the oil in oil tank Lower and upper knife Lower and upper knife are fixed in the opposite direction with the sharper edges meeting each other so that the fabric will get cut each movement sharp edges of the knife overlap around 0.5 \u2013 1 mm depth. The overlock machine has two feed dogs, the main feed dog and the differential feed dog. The levels of these two should be equal with one another and the height can be adjusted independently by the respective bolts. The height of the feed dog must be adjusted according to the thickness of the material. Feed ration nut regulator increases and decreases the teeth of the feed dog to get shirring and stretching stitches. Threading of Over lock machine Threading of the overlock machine is strictly complicated compared with other sewing machines.",
     "id": "C_00011"
   },
   {
-    "title": "Output:",
-    "path": " If statement >  Output:",
+    "title": "Methodology behind the stitch formation",
+    "path": " Introduction to Over lock Machines >  Methodology behind the stitch formation",
     "subtopic": "context",
-    "text": "b is greater than a",
+    "text": "When the needle enters the fabric, a loop is formed in the thread at the back of the needle. As the needle continues its downward motion into the fabric, the lower looper begins its movement from left to right. The tip of the lower looper passes behind the needle and through the loop of thread that has formed behind the needle. The lower looper continues along its path moving toward the right of the serge. As it moves, the lower thread is carried through the needle thread. While the lower looper is moving from left to right, the upper looper advances from right to left. The tip of the upper looper passes behind the lower looper and picks up the lower looper thread and needle thread. The lower looper now begins its move back in to the far left position. As the upper looper continues to the left, it holds the lower looper thread and needle thread in place. The needle again begins its downward path passing behind the upper looper and securing the upper looper thread. This completes the overlock stitch formation and begins the stitch cycle all over again.",
     "id": "C_00012"
   },
   {
-    "title": "If - else statement",
-    "path": " If - else statement",
+    "title": "Types of Overlock stitches",
+    "path": " Types of Overlock stitches",
     "subtopic": "context",
-    "text": "The if-else statement provides an else block combined with the if statement which is executed in the false case of the condition. If the condition is true, then the if-block is executed. Otherwise, the else-block is executed.",
+    "text": "Overlock machines are generally made in 1, 2, 3, 4 or 5 thread formations. Each formation has unique uses and benefits. One thread Overlock End to end seaming or butt seaming of piece goods for textile finishing. Two thread overlock Stitch type 503, machine has one needle and one looper. A two-thread model is best for finishing seam edges and decorative edgings, or finishing edges for light fabrics. It can also be used to stitch flatlock seams. It can be used to stitch elastic and lace to lingerie. Stitches can be adjusted to sew rolled hem. Three thread overlock Stitch type 504, Machine has one needle and two loopers. A three-thread overlock trims, stitches, and overcasts seam in one operation. The three-thread overlock seam is most useful when sewing knits. It can be used to sew woven fabrics, but not in areas that will receive a lot of stress. Some three-thread models can be converted to do two-thread stitching. This is a most common over edging having excellent stretch and recovery. Here stitches looks the same on the both the sides. Four thread Overlock Machine has two needles and two loopers. The four-thread overlock will stitch a chain stitch or a safety stitch as it stitches and overcasts seams. The chain stitch model is most useful when seaming woven fabrics. The safety stitch model can be used to sew woven or knitted fabrics. Machine can be converted to two thread or three thread Overlock. Five thread Overlock Machine has two needles and three loopers. It is two thread chain stitch combined with a three thread overlock. The left needle and lower looper for two thread chain stitch. For every unit length of stitch, it requires 20 times of thread length.",
     "id": "C_00013"
-  },
-  {
-    "title": "Syntax:",
-    "path": " If - else statement >  Syntax:",
-    "subtopic": "context",
-    "text": "if expression: #block of statements else: #another block of statements",
-    "id": "C_00014"
-  },
-  {
-    "title": "Example:",
-    "path": " If - else statement >  Example:",
-    "subtopic": "context",
-    "text": "age =int(input(\"Enter your age : \")) if age >=18: print(\"You are eligible to vote !!\") else: print(\"Sorry! you have to wait !!\")",
-    "id": "C_00015"
-  },
-  {
-    "title": "Output:",
-    "path": " If - else statement >  Output:",
-    "subtopic": "context",
-    "text": "Enter your age:19 You are eligible to vote!!",
-    "id": "C_00016"
-  },
-  {
-    "title": "React Introduction",
-    "path": " React Introduction",
-    "subtopic": "context",
-    "text": "ReactJS is a JavaScript library by Facebook for building dynamic, single-page applications. It enables building reusable UI components for easier development and maintenance.",
-    "id": "C_00017"
-  },
-  {
-    "title": "Component-Based Architecture",
-    "path": " Component-Based Architecture",
-    "subtopic": "context",
-    "text": "UI is divided into small, reusable components, each controlling a specific part of the interface. Improves code reusability, readability, and maintenance.",
-    "id": "C_00018"
-  },
-  {
-    "title": "JSX (JavaScript XML)",
-    "path": " Component-Based Architecture >  JSX (JavaScript XML)",
-    "subtopic": "context",
-    "text": "Syntax that lets you write HTML-like code in JavaScript. Easier to design UI components; compiled to regular JavaScript.",
-    "id": "C_00019"
-  },
-  {
-    "title": "Virtual DOM",
-    "path": " Component-Based Architecture >  Virtual DOM",
-    "subtopic": "context",
-    "text": "Lightweight copy of the real DOM. Updates Virtual DOM first, then applies only necessary changes to the real DOM for better performance.",
-    "id": "C_00020"
-  },
-  {
-    "title": "State and Props",
-    "path": " Component-Based Architecture >  State and Props",
-    "subtopic": "context",
-    "text": "State:\u00a0stores component-specific, changeable data. Props:\u00a0pass data between components. Together, they manage dynamic data flow in the UI.",
-    "id": "C_00021"
-  },
-  {
-    "title": "Event Handling",
-    "path": " Event Handling",
-    "subtopic": "context",
-    "text": "Handles user interactions like clicks and typing via event handlers. Events update state, causing dynamic UI updates without page reloads.",
-    "id": "C_00022"
-  },
-  {
-    "title": "Setting up a React Environment",
-    "path": " Setting up a React Environment",
-    "subtopic": "context",
-    "text": "First, make sure you have Node.js installed. You can check by running this in your terminal. node -v If Node.js is installed, you will get a result with the version number: v22.15.0 If not, you will need to install Node.js.",
-    "id": "C_00023"
-  },
-  {
-    "title": "Install a Build Tool (Vite)",
-    "path": " Install a Build Tool (Vite)",
-    "subtopic": "context",
-    "text": "When you have Node.js installed, you can start creating a React application by choosing a build tool. We will use the\u00a0Vite\u00a0build tool in this tutorial. Run this command to install Vite: npm install -g create-vite If the installation was a success, you will get a result like this: added 1 package in 649ms",
-    "id": "C_00024"
-  },
-  {
-    "title": "Create a React App",
-    "path": " Create a React App",
-    "subtopic": "context",
-    "text": "npm create vit The easiest way to start is using\u00a0Create React App npx create-react-app my-react-app cd my-react-app npm start Your app will open at http://localhost:3000 Run this command to create a React application named\u00a0my-react-app: npm create vite@latest my-react-app -- -- template react If you get this message, just press\u00a0y\u00a0and press\u00a0Enter\u00a0to continue: Need to install the following packages: create-vite@6.5.0 Ok to proceed? (y) If the creation was a success, you will get a result like this: > npx\n> create-vite my-react-app -- template react Scaffolding project in C:\\User\\stale\\my-react-app... Done. Now run: cd my-react-app npm install npm run dev",
-    "id": "C_00025"
-  },
-  {
-    "title": "Install Dependencies",
-    "path": " Install Dependencies",
-    "subtopic": "context",
-    "text": "As the result above suggests, navigate to your new react application directory cd my-react-app And run this command to install dependencies: npm install Which will result in this: added 154 packages, and audited 155 packages in 8s 33 packages are looking for funding run 'npm fund' for details found 0 vulnerabilities",
-    "id": "C_00026"
-  },
-  {
-    "title": "Run the React Application",
-    "path": " Run the React Application",
-    "subtopic": "context",
-    "text": "Now you are ready to run your first\u00a0real\u00a0React application! Run this command to run the React application\u00a0my-react-app: npm run dev Which will result in this: VITE v6.3.5 ready in 217 ms Local: https://localhost:5173/ Network: use --host to expose press h + enter to show help A new browser window will pop up with your newly created React App! If not, open your browser and type\u00a0localhost:5173\u00a0in the address bar.",
-    "id": "C_00027"
-  },
-  {
-    "title": "Simple Front-End React Application",
-    "path": " Simple Front-End React Application",
-    "subtopic": "context",
-    "text": "",
-    "id": "C_00028"
-  },
-  {
-    "title": "What This App Does",
-    "path": " Simple Front-End React Application >  What This App Does",
-    "subtopic": "context",
-    "text": "Takes a user\u2019s name Displays a greeting message Uses only basic React concepts",
-    "id": "C_00029"
-  },
-  {
-    "title": "Step 1: Create React App",
-    "path": " Simple Front-End React Application >  What This App Does >  Step 1: Create React App",
-    "subtopic": "context",
-    "text": "Open terminal and run npx create-react-app greeting-app cd greeting-app npm start Basic Project Structure Important files you\u2019ll use src/ \u251c\u2500\u2500 App.js \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0// Main component \u251c\u2500\u2500 index.js \u00a0\u00a0\u00a0\u00a0\u00a0// Entry point \u251c\u2500\u2500 App.css \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0// Styling \u2514\u2500\u2500 components/ \u00a0\u00a0// Your custom components",
-    "id": "C_00030"
-  },
-  {
-    "title": "Step 2: Edit the Main Files",
-    "path": " Simple Front-End React Application >  What This App Does >  Step 2: Edit the Main Files",
-    "subtopic": "context",
-    "text": "Look in the greeting-app directory, and you will find a src folder. Inside the src folder there is a file called App.js, open it and it will look like this src/App.js import React, { useState } from \"react\"; import \"./App.css\"; function App() { const [name, setName] = useState(\"\"); return ( <div className=\"container\"> <h1>Greeting App</h1> <input type=\"text\" placeholder=\"Enter your name\" value={name} onChange={(e) => setName(e.target(opens in a new tab).value)} /> {name && <h2>Hello, {name}! \ud83d\udc4b</h2>} </div> ); } export default App;",
-    "id": "C_00031"
-  },
-  {
-    "title": "Step 3: Add Styling in src/App.css",
-    "path": " Simple Front-End React Application >  What This App Does >  Step 3: Add Styling in src/App.css",
-    "subtopic": "context",
-    "text": "body { font-family: Arial, sans-serif; background-color: #f0f0f0; } .container { width: 300px; margin: 100px auto; background: white; padding: 20px; text-align: center; border-radius: 8px; } input { padding: 8px; width: 90%; margin-top: 10px; }",
-    "id": "C_00032"
-  },
-  {
-    "title": "Step 4: How It Works",
-    "path": " Simple Front-End React Application >  What This App Does >  Step 4: How It Works",
-    "subtopic": "context",
-    "text": "useState Stores the user\u2019s name. const [name, setName] = useState(\"\");",
-    "id": "C_00033"
-  },
-  {
-    "title": "Input Handling",
-    "path": " Simple Front-End React Application >  What This App Does >  Input Handling",
-    "subtopic": "context",
-    "text": "Updates state when user types. onChange={(e) => setName(e.target.value)}",
-    "id": "C_00034"
-  },
-  {
-    "title": "Conditional Rendering",
-    "path": " Simple Front-End React Application >  What This App Does >  Conditional Rendering",
-    "subtopic": "context",
-    "text": "Shows greeting only if name is entered. {name && <h2>Hello, {name}!</h2>}",
-    "id": "C_00035"
-  },
-  {
-    "title": "Output",
-    "path": " Simple Front-End React Application >  What This App Does >  Conditional Rendering >  Output",
-    "subtopic": "context",
-    "text": "Text box to enter name Greeting appears instantly Your first simple React front-end app is ready!",
-    "id": "C_00036"
-  },
-  {
-    "title": "ReactJS Bug Busters",
-    "path": " ReactJS Bug Busters",
-    "subtopic": "context",
-    "text": "Problem 1: Missing useState import Problem 2: Event handler called immediately Problem 3: Input value not updating Problem 4: Returning multiple JSX elements without wrapper",
-    "id": "C_00037"
-  },
-  {
-    "title": "Introduction to Loop Statements",
-    "path": " Introduction to Loop Statements",
-    "subtopic": "context",
-    "text": "Sometimes we may need to alter the flow of the program. If the execution of a specific code may need to be repeated several numbers of times, then we can go for loop statements. For this purpose, the python provides various types of loops which are capable of repeating some specific code several numbers of times. Those are, while loop for loop",
-    "id": "C_00038"
-  },
-  {
-    "title": "while loop",
-    "path": " while loop",
-    "subtopic": "context",
-    "text": "With the while loop we can execute a set of statements as long as a condition is true. The while loop is mostly used in the case where the number of iterations is not known in advance.",
-    "id": "C_00039"
-  },
-  {
-    "title": "Syntax:",
-    "path": " while loop >  Syntax:",
-    "subtopic": "context",
-    "text": "while expression: Statement(s)",
-    "id": "C_00040"
-  },
-  {
-    "title": "Example:",
-    "path": " while loop >  Example:",
-    "subtopic": "context",
-    "text": "i=1; while i<=3: print(i); i=i+1;",
-    "id": "C_00041"
-  },
-  {
-    "title": "Output:",
-    "path": " while loop >  Output:",
-    "subtopic": "context",
-    "text": "1 2 3",
-    "id": "C_00042"
-  },
-  {
-    "title": "Using else with while loop",
-    "path": " Using else with while loop",
-    "subtopic": "context",
-    "text": "Python enables us to use the while loop with the else block also. The else block is executed when the condition given in the while statement becomes false.",
-    "id": "C_00043"
-  },
-  {
-    "title": "Syntax:",
-    "path": " Using else with while loop >  Syntax:",
-    "subtopic": "context",
-    "text": "while expression: Statements else: Statements",
-    "id": "C_00044"
-  },
-  {
-    "title": "Example:",
-    "path": " Using else with while loop >  Example:",
-    "subtopic": "context",
-    "text": "i=1; while i<=3: print(i) i=i+1; else:print(\"The while loop terminated\");",
-    "id": "C_00045"
-  },
-  {
-    "title": "Output:",
-    "path": " Using else with while loop >  Output:",
-    "subtopic": "context",
-    "text": "1 2 3 The while loop terminated",
-    "id": "C_00046"
-  },
-  {
-    "title": "for loop",
-    "path": " for loop",
-    "subtopic": "context",
-    "text": "The for loop in Python is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like list, tuple, or dictionary.",
-    "id": "C_00047"
-  },
-  {
-    "title": "Syntax:",
-    "path": " for loop >  Syntax:",
-    "subtopic": "context",
-    "text": "for iterating_var in sequence: statement(s)",
-    "id": "C_00048"
-  },
-  {
-    "title": "Example:",
-    "path": " for loop >  Example:",
-    "subtopic": "context",
-    "text": "i=1 n=int(input(\"Enter n value : \")) for i in range(i,n+1): print(i,end =' ')",
-    "id": "C_00049"
-  },
-  {
-    "title": "Output:",
-    "path": " for loop >  Output:",
-    "subtopic": "context",
-    "text": "Enter n value: 5 1 2 3 4 5",
-    "id": "C_00050"
-  },
-  {
-    "title": "Using else with for loop",
-    "path": " Using else with for loop",
-    "subtopic": "context",
-    "text": "Python allows us to use the else statement with the for loop which can be executed only when all the iterations are exhausted. Here, we must notice that if the loop contains any of the break statement, then the else statement will not be executed.",
-    "id": "C_00051"
-  },
-  {
-    "title": "Syntax:",
-    "path": " Using else with for loop >  Syntax:",
-    "subtopic": "context",
-    "text": "for iterating_var in sequence: statements else: statements",
-    "id": "C_00052"
-  },
-  {
-    "title": "Program:",
-    "path": " Using else with for loop >  Program:",
-    "subtopic": "context",
-    "text": "for i in range(0,5): print(i) else: print(\"for loop completely exhausted\");",
-    "id": "C_00053"
-  },
-  {
-    "title": "Output:",
-    "path": " Using else with for loop >  Output:",
-    "subtopic": "context",
-    "text": "0 1 2 3 4",
-    "id": "C_00054"
-  },
-  {
-    "title": "Note",
-    "path": " Using else with for loop >  Output: >  Note",
-    "subtopic": "context",
-    "text": "The range() function returns a sequence of numbers, starting from0 by default,and increments by 1(by default),and ends at a specified number.",
-    "id": "C_00055"
-  },
-  {
-    "title": "Example:",
-    "path": " Using else with for loop >  Output: >  Example:",
-    "subtopic": "context",
-    "text": "range(6) means the values from0 to 5. range(2,6) means the values from2 to 5.",
-    "id": "C_00056"
-  },
-  {
-    "title": "Example Program: Program to printing the table of the given number",
-    "path": " Using else with for loop >  Example Program: Program to printing the table of the given number",
-    "subtopic": "context",
-    "text": "",
-    "id": "C_00057"
-  },
-  {
-    "title": "Program:",
-    "path": " Using else with for loop >  Example Program: Program to printing the table of the given number >  Program:",
-    "subtopic": "context",
-    "text": "i=1; num =int(input(\"Enter a number:\")); for i inrange(1,11): print(\"%d X %d = %d\"%(num,i,num*i))",
-    "id": "C_00058"
-  },
-  {
-    "title": "Output:",
-    "path": " Using else with for loop >  Example Program: Program to printing the table of the given number >  Output:",
-    "subtopic": "context",
-    "text": "Enter a number:10 10 X 1=10 10 X 2=20 10 X 3=30 10 X 4=40 10 X 5=50 10 X 6=60 10 X 7=70 10 X 8=80 10 X 9=90 10 X 10=100",
-    "id": "C_00059"
-  },
-  {
-    "title": "Nested for loop in python",
-    "path": " Nested for loop in python",
-    "subtopic": "context",
-    "text": "Python allows us to nest any number of for loops inside a for loop. The inner loop is executed n number of times for every iteration of the outer loop. Syntax: for iterating_var1 in sequence: for iterating_var2 in sequence: #block of statements",
-    "id": "C_00060"
-  },
-  {
-    "title": "Example Program: Program to printing the rows of stars of the given number",
-    "path": " Nested for loop in python >  Example Program: Program to printing the rows of stars of the given number",
-    "subtopic": "context",
-    "text": "",
-    "id": "C_00061"
-  },
-  {
-    "title": "Program:",
-    "path": " Nested for loop in python >  Example Program: Program to printing the rows of stars of the given number >  Program:",
-    "subtopic": "context",
-    "text": "n =int(input(\"Enter the no.of rows you want to print : \")) for i inrange(0,n): for j inrange(0,i+1): print(\"*\",end=\"\") print()",
-    "id": "C_00062"
-  },
-  {
-    "title": "Output:",
-    "path": " Nested for loop in python >  Example Program: Program to printing the rows of stars of the given number >  Output:",
-    "subtopic": "context",
-    "text": "Enter the no. of rows you want to print:4 * * * * * * * * * *",
-    "id": "C_00063"
   }
 ]
