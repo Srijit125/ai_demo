@@ -5,6 +5,8 @@ process_docx/
 docs/
 docs_dress_making/
 Demo 1/
+__pycache__/
+# .gitignore for Python projects
 
 venv
 .\venv
